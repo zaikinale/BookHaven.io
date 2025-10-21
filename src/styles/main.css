@@ -9,6 +9,20 @@
   --color-charcoal: #3d3f3f;
 }
 
+body,
+p,
+li,
+span {
+  color: var(--color-charcoal);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-charcoal);
+}
+
+
 h1 {
   font-family: 'Intro Head R', serif;
   font-size: 44px;
@@ -53,7 +67,16 @@ a {
   font-family: 'Lorenzo Sans', sans-serif;
   font-size: 18px;
   font-weight: 500;
+  color: var(--color-meadow);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-forest);
+  text-decoration: underline;
+}
+
+a {
 }
 
 a:hover {
@@ -88,6 +111,20 @@ nav > ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+
+.btn {
+  color: var(--color-stone);
+  background-color: var(--color-forest);
 }
 
 
