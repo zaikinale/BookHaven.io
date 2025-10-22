@@ -4,9 +4,19 @@ header {
 }
 
 .hero-slider {
-
+    padding: 20 30px;
+}
+.slide.active {
+    position: relative;
+}
+.bkg-image {
+    position: absolute;
 }
 
+.slide-description {
+    position: absolute;
+    z-index: 100;
+}
 
 .auth {
 

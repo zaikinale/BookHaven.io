@@ -13,39 +13,41 @@
 
 <body>
 
-  <header class="container-section-row">
-    <div class="logo">
+  <header class="header container-section-row">
+    <div class="header-logo logo">
       <img src="./img/logo/logo.svg" alt="BookHaven">
       <h2>BookHaven</h2>
     </div>
 
-    <nav>
-      <ul>
-        <li><a href="register.html">Регистрация</a></li>
-        <li><a href="#auth">Авторизация</a></li>
-        <li><a href="profile.html">Личный кабинет</a></li>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#new-books">Новые книги</a></li>
-        <li><a href="#search">Поиск</a></li>
-        <li><a href="#reviews">Отзывы</a></li>
-        <li><a href="#contacts">Контакты</a></li>
+    <nav class="header-navigathion">
+      <ul class="header-navigathion-conteiner">
+        <li class="header-navigathion-conteiner_elements"><a href="./register.html">Регистрация</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="#auth">Авторизация</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="profile.html">Личный кабинет</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="#about">О нас</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="#new-books">Новые книги</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="#search">Поиск</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="#reviews">Отзывы</a></li>
+        <li class="header-navigathion-conteiner_elements"><a href="#contacts">Контакты</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero-slider container-section-column">
-    <div class="container-slider">
-      <div class="slide active">
-        <img class="bkg_image" src="./img/media/student-derzasii-knigu.jpg" alt="Иллюстрация чтения" />
-        <h1>Читайте любимые книги онлайн</h1>
-        <p>Загружайте свои книги или читайте книги, добавленные нами.</p>
-        <a href="read.html" class="btn">Начать чтение</a>
-        <div class="slider-controls">
-          <button class="next-slide"></button>
-          <div class="preview-thumbnails">
-            <img src="./img/media/citausaa-zensina-vid-sverhu.jpg" alt="Превью 2" />
-            <img src="./img/media/krasiveisaa-zensina-ctenia-knigi.jpg" alt="Превью 3" />
-            <img src="./img/media/pexels-martinpechy-922100.jpg" alt="Превью 4" />
+    <div class="hero-slider-container">
+      <div class="hero-slider-container-slide active">
+        <img class="hero-slider-container-slide_img bkg-image" src="./img/media/student-derzasii-knigu.jpg" alt="Иллюстрация чтения">
+        <div class="hero-slider-container-slide-description">
+          <h1 class="hero-slider-container-slide-description_title">Читайте любимые книги онлайн</h1>
+          <p class="hero-slider-container-slide-description_text">Загружайте свои книги или читайте книги, добавленные нами.</p>
+          <a class="hero-slider-container-slide-description_btn" href="read.html" class="btn">Начать чтение</a>
+        </div>
+        <div class="hero-slider-container-slide-controls">
+          <button class="hero-slider-container-slide-controls_button next-slide"></button>
+          <div class="hero-slider-container-slide-controls-preview-thumbnails">
+            <img class="hero-slider-container-slide-controls-preview-thumbnails_thumbnail" src="./img/media/citausaa-zensina-vid-sverhu.jpg" alt="Превью 2" />
+            <img class="hero-slider-container-slide-controls-preview-thumbnails_thumbnail" src="./img/media/krasiveisaa-zensina-ctenia-knigi.jpg" alt="Превью 3" />
+            <img class="hero-slider-container-slide-controls-preview-thumbnails_thumbnail" src="./img/media/pexels-martinpechy-922100.jpg" alt="Превью 4" />
           </div>
         </div>
       </div>
@@ -53,36 +55,36 @@
   </section>
 
   <section id="auth" class="auth-section container-section-column">
-    <h2>Вход в аккаунт</h2>
-    <form>
-      <input type="email" placeholder="Электронная почта" required />
-      <input type="password" placeholder="Пароль" required />
-      <button type="submit">Войти</button>
-      <a href="#" class="forgot-password">Забыли пароль?</a>
+    <h2 class="auth-section_title">Вход в аккаунт</h2>
+    <form class="auth-section-form">
+      <input class="auth-section-form_input" type="email" placeholder="Электронная почта" required />
+      <input class="auth-section-form_input" type="password" placeholder="Пароль" required />
+      <button class="auth-section-form_btn" type="submit">Войти</button>
+      <a class="auth-section-form_link" href="#" class="forgot-password">Забыли пароль?</a>
     </form>
   </section>
 
   <section id="about" class="about-section container-section-column">
-    <h2>О нас</h2>
-    <img src="./img/media/pexels-fauxels-3184418.jpg" alt="О нашей команде">
-    <p>BookHaven — это уникальная платформа для бесплатного чтения книг, где каждый найдет что-то по душе. На нашем
+    <h2 class="about-section_title">О нас</h2>
+    <img class="about-section_img" src="./img/media/pexels-fauxels-3184418.jpg" alt="О нашей команде">
+    <p class="about-section_text">BookHaven — это уникальная платформа для бесплатного чтения книг, где каждый найдет что-то по душе. На нашем
       сайте собрана обширная библиотека произведений различных жанров: от классической литературы до современных
       бестселлеров, научно-популярных книг и детских сказок. Мы стремимся сделать чтение доступным для всех, поэтому наш
       ресурс полностью бесплатный и не требует подписок или скрытых платежей.</p>
-    <p>На BookHaven вы сможете:<br>
+    <p class="about-section_text">На BookHaven вы сможете:<br>
       • Читать книги онлайн в удобном формате.<br>
       • Скачивать произведения для оффлайн-чтения.<br>
       • Открывать для себя новых авторов и делиться своими впечатлениями с другими читателями.<br>
       • Создавать персональные подборки и сохранять любимые книги.<br>
       • Наслаждаться чтением на любом устройстве: смартфоне, планшете, ноутбуке или компьютере. Наш сайт адаптирован под
       все экраны, чтобы вы могли погрузиться в мир литературы где угодно и когда угодно.</p>
-    <p>BookHaven — это место, где каждая книга становится доступной, а чтение — удовольствием. Присоединяйтесь к нашему
+    <p class="about-section_text">BookHaven — это место, где каждая книга становится доступной, а чтение — удовольствием. Присоединяйтесь к нашему
       сообществу книголюбов и откройте для себя мир литературы без границ!</p>
   </section>
 
   <section class="features-section container-section-column">
-    <h2>Как это работает</h2>
-    <video controls width="100%">
+    <h2 class="features-section_title">Как это работает</h2>
+    <video class="features-section_video" controls width="100%">
       <source src="./video/howto.mp4" type="video/mp4">
       Ваш браузер не поддерживает видео.
     </video>
@@ -90,51 +92,51 @@
 
   <!-- Секция "Новые книги" — 5 карточек -->
   <section id="new-books" class="books-section container-section-column">
-    <h2>Новые книги</h2>
-    <div class="books-grid">
-      <div class="book-card">
-        <img src="./img/media/books/Невеста сумеречной Тени.jpg" alt="Обложка: Невеста сумеречной Тени">
-        <h3>Невеста сумеречной Тени</h3>
-        <p>Меня казнили за участие в заговоре против императора. Как несправедливо, ведь я совершенно не при чем! Да, я
+    <h2 class="books-section_title">Новые книги</h2>
+    <div class="books-section-container">
+      <div class="books-section-container-card">
+        <img class="books-section-container-card_img" src="./img/media/books/Невеста сумеречной Тени.jpg" alt="Обложка: Невеста сумеречной Тени">
+        <h3 class="books-section-container-card_title">Невеста сумеречной Тени</h3>
+        <p class="books-section-container-card_description">Меня казнили за участие в заговоре против императора. Как несправедливо, ведь я совершенно не при чем! Да, я
           знала, что брат императора владеет запретной магией Тени. Да, я шантажом вынудила его на мне жениться. Но я
           точно неповинна в государственной измене! К счастью, судьба дала мне второй шанс...</p>
         <a href="read.html" class="btn">Читать</a>
       </div>
-      <div class="book-card">
-        <img src="./img/media/books/Игра на чужом поле.jpg" alt="Обложка: Игра на чужом поле">
-        <h3>Игра на чужом поле</h3>
-        <p>Толе Штыбе предстоит вести свою партию сразу на нескольких чужих досках — от политической арены до
+      <div class="books-section-container-card">
+        <img class="books-section-container-card_img" src="./img/media/books/Игра на чужом поле.jpg" alt="Обложка: Игра на чужом поле">
+        <h3 class="books-section-container-card_title">Игра на чужом поле</h3>
+        <p class="books-section-container-card_description">Толе Штыбе предстоит вести свою партию сразу на нескольких чужих досках — от политической арены до
           коммерческого банка. Его жизнь закручивается по законам непростых девяностых...</p>
-        <a href="read.html" class="btn">Читать</a>
+        <a class="books-section-container-card_btn" href="read.html" class="btn">Читать</a>
       </div>
-      <div class="book-card">
-        <img src="./img/media/books/Всё об ИИ чат-боте ChatGPT.jpg" alt="Обложка: Всё об ИИ чат-боте ChatGPT">
-        <h3>Всё об ИИ чат-боте ChatGPT</h3>
-        <p>Книга содержит 100 бизнес-идей, 100 запросов для автоматизации задач и 100 примеров бытовых запросов.
+      <div class="books-section-container-card">
+        <img class="books-section-container-card_img" src="./img/media/books/Всё об ИИ чат-боте ChatGPT.jpg" alt="Обложка: Всё об ИИ чат-боте ChatGPT">
+        <h3 class="books-section-container-card_title">Всё об ИИ чат-боте ChatGPT</h3>
+        <p class="books-section-container-card_description">Книга содержит 100 бизнес-идей, 100 запросов для автоматизации задач и 100 примеров бытовых запросов.
           Необходимая книга для тех, кто хочет использовать современные технологии для достижения целей.</p>
-        <a href="read.html" class="btn">Читать</a>
+        <a class="books-section-container-card_btn" href="read.html" class="btn">Читать</a>
       </div>
-      <div class="book-card">
-        <img src="./img/media/books/Занудная педиатрия для мам, пап, бабушек и дедушек_Разное про незаразное.jpg" alt="Обложка: Занудная педиатрия для мам, пап, бабушек и дедушек">
-        <h3>Занудная педиатрия для мам, пап, бабушек и дедушек</h3>
-        <p>Врач-педиатр Роман Шиян просто и понятно отвечает на вопросы о неинфекционных заболеваниях у детей, снижает
+      <div class="books-section-container-card">
+        <img class="books-section-container-card_img" src="./img/media/books/Занудная педиатрия для мам, пап, бабушек и дедушек_Разное про незаразное.jpg" alt="Обложка: Занудная педиатрия для мам, пап, бабушек и дедушек">
+        <h3 class="books-section-container-card_title">Занудная педиатрия для мам, пап, бабушек и дедушек</h3>
+        <p class="books-section-container-card_description">Врач-педиатр Роман Шиян просто и понятно отвечает на вопросы о неинфекционных заболеваниях у детей, снижает
           тревожность и помогает осознанно относиться к здоровью детей.</p>
-        <a href="read.html" class="btn">Читать</a>
+        <a class="books-section-container-card_btn" href="read.html" class="btn">Читать</a>
       </div>
-      <div class="book-card">
-        <img src="./img/media/books/Готовим по-русски. Рецепты, традиции, наследие.jpg" alt="Обложка: Готовим по-русски">
-        <h3>Готовим по-русски. Рецепты, традиции, наследие</h3>
-        <p>Рецепты от древнерусской кухни IX–XVI веков до современных блюд, монастырские рецепты, традиционные
+      <div class="books-section-container-card">
+        <img class="books-section-container-card_img" src="./img/media/books/Готовим по-русски. Рецепты, традиции, наследие.jpg" alt="Обложка: Готовим по-русски">
+        <h3 class="books-section-container-card_title">Готовим по-русски. Рецепты, традиции, наследие</h3>
+        <p class="books-section-container-card_description">Рецепты от древнерусской кухни IX–XVI веков до современных блюд, монастырские рецепты, традиционные
           пасхальные и рождественские блюда, а также авторские рецепты Олега Ольхова.</p>
-        <a href="read.html" class="btn">Читать</a>
+        <a class="books-section-container-card_btn" href="read.html" class="btn">Читать</a>
       </div>
     </div>
-    <a href="catalog.html" class="btn">Смотреть все</a>
+    <a class="books-section_link" href="catalog.html" class="btn">Смотреть все</a>
   </section>
 
   <section id="search" class="search-section container-section-column">
-    <form>
-      <input type="text" list="book-suggestions" placeholder="Поиск по названию или автору..." />
+    <form class="search-section-form">
+      <input class="search-section-form_input" type="text" list="book-suggestions" placeholder="Поиск по названию или автору..." />
       <datalist id="book-suggestions">
         <option value="Невеста сумеречной Тени">
         <option value="Дюкам Мари">
@@ -147,73 +149,73 @@
         <option value="Готовим по-русски">
         <option value="Ольхов Олег">
       </datalist>
-      <button type="submit">Поиск</button>
+      <button class="search-section-form_btn" type="submit">Поиск</button>
     </form>
   </section>
 
   <section id="reviews" class="reviews-section container-section-column">
-    <h2>Отзывы читателей</h2>
-    <div class="review-slider">
-      <div class="review active">
-        <img src="./img/media/reviews/автор отзыва 1.jpg" alt="Мария Чирнявская" class="review-avatar" />
-        <h4>Мария Чирнявская</h4>
-        <div class="rating">★★★★★</div>
-        <p>Очень увлекательная история "Невеста сумеречной Тени" с элементами магии и дворцовых интриг. Главная героиня
+    <h2 class="reviews-section_title">Отзывы читателей</h2>
+    <div class="reviews-section-slider">
+      <div class="reviews-section-slider-slide review active">
+        <img class="reviews-section-slider-slide_img" src="./img/media/reviews/автор отзыва 1.jpg" alt="Мария Чирнявская" class="review-avatar" />
+        <h4 class="reviews-section-slider-slide_title">Мария Чирнявская</h4>
+        <div class="reviews-section-slider-slide_grade rating">★★★★★</div>
+        <p class="reviews-section-slider-slide_description">Очень увлекательная история "Невеста сумеречной Тени" с элементами магии и дворцовых интриг. Главная героиня
           сильная и харизматичная, а сюжет держит в напряжении до последней страницы. Любителям фантастики и романтики —
           обязательно к прочтению!</p>
-        <time datetime="2024-10-15">15 октября 2024</time>
+        <time class="reviews-section-slider-slide_time" datetime="2024-10-15">15 октября 2024</time>
       </div>
-      <div class="review">
-        <img src="./img/media/reviews/автор отзыва 2.jpg" alt="Иванов Дмитрий Олегович" class="review-avatar" />
-        <h4>Иванов Дмитрий Олегович</h4>
-        <div class="rating">★★★★☆</div>
-        <p>Интересный взгляд на 90-е через призму жизни главного героя расскааза "Игра на чужом поле". Книга насыщена
+      <div class="reviews-section-slider-slide review">
+        <img class="reviews-section-slider-slide_img" src="./img/media/reviews/автор отзыва 2.jpg" alt="Иванов Дмитрий Олегович" class="review-avatar" />
+        <h4 class="reviews-section-slider-slide_title">Иванов Дмитрий Олегович</h4>
+        <div class="reviews-section-slider-slide_grade rating">★★★★☆</div>
+        <p class="reviews-section-slider-slide_description">Интересный взгляд на 90-е через призму жизни главного героя расскааза "Игра на чужом поле". Книга насыщена
           событиями, политическими интригами и неожиданными поворотами. Читается на одном дыхании, особенно для тех, кто
           помнит ту эпоху.</p>
-        <time datetime="2023-10-20">20 октября 2023</time>
+        <time class="reviews-section-slider-slide_time" datetime="2023-10-20">20 октября 2023</time>
       </div>
-      <div class="review">
-        <img src="./img/media/reviews/автор отзыва 3.jpg" alt="Кононова Василиса" class="review-avatar" />
-        <h4>Кононова Василиса</h4>
-        <div class="rating">★★★★★</div>
-        <p>Очень полезная книга для тех, кто хочет разобраться в возможностях ChatGPT. Много практических советов и идей
+      <div class="reviews-section-slider-slide review">
+        <img class="reviews-section-slider-slide_img" src="./img/media/reviews/автор отзыва 3.jpg" alt="Кононова Василиса" class="review-avatar" />
+        <h4 class="reviews-section-slider-slide_title">Кононова Василиса</h4>
+        <div class="reviews-section-slider-slide_grade rating">★★★★★</div>
+        <p class="reviews-section-slider-slide_description">Очень полезная книга для тех, кто хочет разобраться в возможностях ChatGPT. Много практических советов и идей
           для бизнеса. Отличный справочник для начинающих и продвинутых пользователей.</p>
-        <time datetime="2023-10-10">10 октября 2023</time>
+        <time class="reviews-section-slider-slide_time" datetime="2023-10-10">10 октября 2023</time>
       </div>
     </div>
-    <div class="review-previews">
-      <img src="./img/media/reviews/автор отзыва 10.jpg" alt="Превью отзыва 4" />
-      <img src="./img/media/reviews/автор отзыва 9.jpg" alt="Превью отзыва 5" />
-      <img src="./img/media/reviews/автор отзыва 11.jpg" alt="Превью отзыва 6" />
+    <div class="reviews-section-previews">
+      <img class="reviews-section-previews_element" src="./img/media/reviews/автор отзыва 10.jpg" alt="Превью отзыва 4" />
+      <img class="reviews-section-previews_element" src="./img/media/reviews/автор отзыва 9.jpg" alt="Превью отзыва 5" />
+      <img class="reviews-section-previews_element" src="./img/media/reviews/автор отзыва 11.jpg" alt="Превью отзыва 6" />
     </div>
   </section>
 
-  <section class="subscribe-form container-section-column">
-    <h2>Подпишитесь на новости</h2>
-    <form>
-      <input type="email" placeholder="Ваш email" required />
-      <label>
-        <input type="checkbox" required />
+  <section class="subscribe-section container-section-column">
+    <h2 class="subscribe-section_title">Подпишитесь на новости</h2>
+    <form class="subscribe-section-form">
+      <input class="subscribe-section-form_input" type="email" placeholder="Ваш email" required />
+      <label class="subscribe-section-form-label">
+        <input class="subscribe-section-form-label_input" type="checkbox" required />
         Согласен на обработку персональных данных
       </label>
-      <button type="submit">Подписаться</button>
+      <button class="subscribe-section-form_btn" type="submit">Подписаться</button>
     </form>
   </section>
 
-  <footer id="contacts" class="container-section-row>
-    <div class="contact-info">
-      <p>Телефон: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
-      <p>Email: <a href="mailto:books@prof.ru">books@prof.ru</a></p>
+  <footer id="contacts" class="footer-section container-section-row">
+    <div class="footer-section-contacts">
+      <p class="footer-section-contacts_element">Телефон: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+      <p class="footer-section-contacts_element">Email: <a href="mailto:books@prof.ru">books@prof.ru</a></p>
     </div>
-    <nav class="footer-nav">
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="register.html">Регистрация</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="read.html">Читать книгу</a></li>
-        <li><a href="read-dark.html">Читать книгу — темная тема</a></li>
-        <li><a href="profile.html">Личный кабинет</a></li>
-        <li><a href="admin.html">Личный кабинет администратора</a></li>
+    <nav class="footer-section-nav">
+      <ul class="footer-section-nav-container">
+        <li class="footer-section-nav-container_element"><a href="index.html">Главная</a></li>
+        <li class="footer-section-nav-container_element"><a href="register.html">Регистрация</a></li>
+        <li class="footer-section-nav-container_element"><a href="catalog.html">Каталог</a></li>
+        <li class="footer-section-nav-container_element"><a href="read.html">Читать книгу</a></li>
+        <li class="footer-section-nav-container_element"><a href="read-dark.html">Читать книгу — темная тема</a></li>
+        <li class="footer-section-nav-container_element"><a href="profile.html">Личный кабинет</a></li>
+        <li class="footer-section-nav-container_element"><a href="admin.html">Личный кабинет администратора</a></li>
       </ul>
     </nav>
   </footer>
