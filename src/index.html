@@ -13,9 +13,10 @@
 
 <body>
 
-  <header>
+  <header class="container-section-row">
     <div class="logo">
       <img src="./img/logo/logo.svg" alt="BookHaven">
+      <h2>BookHaven</h2>
     </div>
 
     <nav>
@@ -32,10 +33,10 @@
     </nav>
   </header>
 
-  <section class="hero-slider">
+  <section class="hero-slider container-section-column">
     <div class="container-slider">
       <div class="slide active">
-        <img src="./img/media/student-derzasii-knigu.jpg" alt="Иллюстрация чтения" />
+        <img class="bkg_image" src="./img/media/student-derzasii-knigu.jpg" alt="Иллюстрация чтения" />
         <h1>Читайте любимые книги онлайн</h1>
         <p>Загружайте свои книги или читайте книги, добавленные нами.</p>
         <a href="read.html" class="btn">Начать чтение</a>
@@ -51,7 +52,7 @@
     </div>
   </section>
 
-  <section id="auth" class="auth-section">
+  <section id="auth" class="auth-section container-section-column">
     <h2>Вход в аккаунт</h2>
     <form>
       <input type="email" placeholder="Электронная почта" required />
@@ -61,7 +62,7 @@
     </form>
   </section>
 
-  <section id="about" class="about-section">
+  <section id="about" class="about-section container-section-column">
     <h2>О нас</h2>
     <img src="./img/media/pexels-fauxels-3184418.jpg" alt="О нашей команде">
     <p>BookHaven — это уникальная платформа для бесплатного чтения книг, где каждый найдет что-то по душе. На нашем
@@ -79,7 +80,7 @@
       сообществу книголюбов и откройте для себя мир литературы без границ!</p>
   </section>
 
-  <section class="features-section">
+  <section class="features-section container-section-column">
     <h2>Как это работает</h2>
     <video controls width="100%">
       <source src="./video/howto.mp4" type="video/mp4">
@@ -88,7 +89,7 @@
   </section>
 
   <!-- Секция "Новые книги" — 5 карточек -->
-  <section id="new-books" class="books-section">
+  <section id="new-books" class="books-section container-section-column">
     <h2>Новые книги</h2>
     <div class="books-grid">
       <div class="book-card">
@@ -131,7 +132,7 @@
     <a href="catalog.html" class="btn">Смотреть все</a>
   </section>
 
-  <section id="search" class="search-section">
+  <section id="search" class="search-section container-section-column">
     <form>
       <input type="text" list="book-suggestions" placeholder="Поиск по названию или автору..." />
       <datalist id="book-suggestions">
@@ -150,7 +151,7 @@
     </form>
   </section>
 
-  <section id="reviews" class="reviews-section">
+  <section id="reviews" class="reviews-section container-section-column">
     <h2>Отзывы читателей</h2>
     <div class="review-slider">
       <div class="review active">
@@ -187,7 +188,7 @@
     </div>
   </section>
 
-  <section class="subscribe-form">
+  <section class="subscribe-form container-section-column">
     <h2>Подпишитесь на новости</h2>
     <form>
       <input type="email" placeholder="Ваш email" required />
@@ -199,7 +200,7 @@
     </form>
   </section>
 
-  <footer id="contacts">
+  <footer id="contacts" class="container-section-row>
     <div class="contact-info">
       <p>Телефон: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
       <p>Email: <a href="mailto:books@prof.ru">books@prof.ru</a></p>
