@@ -102,8 +102,8 @@ header {
 
 .slider-section-container-slide-block-controls_button {
     width: 40px;
-    /* padding: 20px; */
-    z-index: 100;
+    margin: 0;
+
 }
 
 .slider-section-container-slide-block-controls-preview-thumbnails {
@@ -135,15 +135,33 @@ header {
 } */
 
 .auth-section {
-
+    padding: 40px 30px ;
+    margin: 0 auto;
+    width: 30%;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--color-meadow);
+    border-radius: 20px;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 0;
 }
 
 .auth-section_title {
+    color: var(--color-stone);
+}
 
+.auth-section-form {
+    width: 300px;
+    gap: 0;
 }
 
 .auth-section-form_input {
-
+    color: var(--color-forest);
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--color-stone);
 }
 
 .auth-section-form_button {
@@ -151,7 +169,8 @@ header {
 }
 
 .auth-section-form_link {
-    
+    text-align: center;
+    color: #28724f;
 }
 
 

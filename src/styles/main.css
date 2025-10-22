@@ -55,7 +55,7 @@ h4 {
   margin-bottom: 12px;
 }
 
-p {
+p, input, button  {
   font-family: 'Lorenzo Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -76,11 +76,10 @@ a:hover {
   text-decoration: underline;
 }
 
-a {
-}
-
-a:hover {
-  text-decoration: underline;
+input::placeholder {
+  color: var(--color-forest);
+  
+  opacity: 0.6; 
 }
 
 span {
@@ -102,8 +101,6 @@ body >* {
 }
 
 header {
-  /* position: absolute;
-  width: 100%; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -145,6 +142,8 @@ footer {
 .btn {
   color: var(--color-stone);
   background-color: var(--color-forest);
+  padding: 10px 20px;
+  text-align: center;
 }
 
 .container-section-row {
