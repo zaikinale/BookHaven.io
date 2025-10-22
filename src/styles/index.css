@@ -41,59 +41,79 @@ header {
 .slider-section-container-slide_img  {
     position: absolute;
     height: 640px;
+    border-radius: 20px;
 }
 
 .bkg-image {
 
 }
 
-.slider-section-container-slide-description {
-    z-index: 10;
+.slider-section-container-slide-block {
     position: absolute;
-    top: 420px;
-    left: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    width: 98%;
+    top: 360px;
+    left: 10px;
+}
+
+.slider-section-container-slide-block-description {
     padding: 20px 30px;
     border-radius: 20px;
     background-color: var(--color-meadow);
-    opacity: 0.7;
-
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.slider-section-container-slide-description_title {
+.slider-section-container-slide-block-description >* {
+    color: var(--color-stone);
+}   
 
+
+.slider-section-container-slide-block-description_title {
+    
 }
 
-.slider-section-container-slide-description_text  {
-
+.slider-section-container-slide-block-description_text  {
+    font-size: 20px;
+    color: var(--color-stone);   
 }
 
-.slider-section-container-slide-description_btn {
-
+.slider-section-container-slide-block-description_button {
+    text-align: center;
+    width: inherit;
 }
 
-.slider-section-container-slide-controls {
-    z-index: 100;
-    position: absolute;
+.slider-section-container-slide-block-controls {
+    /* z-index: 100; */
+    /* position: absolute; */
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    top: 500px;
-    right: 20px;
+    /* top: 500px;
+    right: 20px; */
 }
 
-.slider-section-container-slide-controls_button {
-    padding: 20px;
+.slider-section-container-slide-block-controls_button {
+    width: 40px;
+    /* padding: 20px; */
+    z-index: 100;
 }
 
-.slider-section-container-slide-controls-preview-thumbnails {
+.slider-section-container-slide-block-controls-preview-thumbnails {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
 
-.slider-section-container-slide-controls-preview-thumbnails_element {
+.slider-section-container-slide-block-controls-preview-thumbnails_element {
     max-width: 150px;
     border-radius: 10px;
     padding: 3px;
@@ -114,9 +134,27 @@ header {
     z-index: 100;
 } */
 
-.auth {
+.auth-section {
 
 }
+
+.auth-section_title {
+
+}
+
+.auth-section-form_input {
+
+}
+
+.auth-section-form_button {
+
+}
+
+.auth-section-form_link {
+    
+}
+
+
 
 .about {
 
