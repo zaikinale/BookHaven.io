@@ -63,7 +63,8 @@ a, button, input, li {
   transition: color 0.4s ease-in-out, transform 0.3s ease;
 }
 
-a:hover, button:hover, input:hover, li:hover {
+a:hover, button:hover, input:hover, li:hover,
+a:focus, button:focus, input:focus, li:focus {
   transform: scale(1.1);
 }
 
