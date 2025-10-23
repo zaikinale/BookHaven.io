@@ -100,20 +100,25 @@ span {
 }
 
 body {
-  position: relative;
-  max-width: 1920px;
-  margin: 0 auto;
-  font-family: 'Lorenzo Sans', sans-serif;
-  box-sizing: border-box;
   background-color: var(--color-stone);
+  font-family: 'Lorenzo Sans', sans-serif;
+  color: var(--color-charcoal);
+  line-height: 1.6;
 }
 
 .slider,
+.auth,
+.about,
 .books,
-.auth {
-  max-width: 1200px;
+.features,
+.search,
+.reviews,
+.subscribe {
+  max-width: 1200px; /* или 1920px — как нужно */
   margin: 0 auto;
+  padding: 20px 30px; /* или как у вас */
 }
+
 header {
   display: flex;
   flex-direction: row;
