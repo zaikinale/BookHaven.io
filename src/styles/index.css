@@ -33,7 +33,7 @@
     background-color: var(--color-parchment);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
 }
 
@@ -118,7 +118,7 @@
 .slider__description {
   padding: 20px 30px;
   border-radius: 20px;
-  background-color: var(--color-meadow);
+  background-color: var(--color-parchment);
   width: 48%;
   display: flex;
   flex-direction: column;
@@ -129,6 +129,7 @@
 .slider__title {
   margin: 0;
   font-size: 2.2rem;
+  color: var(--color-forest);
 }
 
 .slider__text {
@@ -139,6 +140,10 @@
 .slider__button {
   width: 100%;
   text-align: center;
+}
+
+.slider__button {
+    transform: scale(1.02);
 }
 
 .slider__controls {
@@ -417,11 +422,28 @@
   display: none;
   padding: 25px;
   border-radius: 15px;
-  background-color: var(--color-stone);
+  background-color: var(--color-parchment);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .review--active {
   display: block;
+}
+
+.review__header {
+    max-height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.review__grade {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .review__avatar {
@@ -574,7 +596,7 @@
   padding: 40px 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 30px;
   background-color: var(--color-charcoal);
   color: var(--color-stone);
@@ -584,6 +606,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.footer__contact {
+    color: var(--color-stone);
 }
 
 .footer__contact a {
