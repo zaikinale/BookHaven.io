@@ -192,12 +192,18 @@
   <section class="subscribe">
     <h2 class="subscribe__title">Подпишитесь на новости</h2>
     <form class="subscribe__form">
-      <input class="subscribe__input" type="email" placeholder="Ваш email" required />
-      <label class="subscribe__label">
-        <input class="subscribe__checkbox" type="checkbox" required />
-        Согласен на обработку персональных данных
+      <div class="subscribe__field">
+        <label class="subscribe__label" for="subscribe-email">E-mail:</label>
+        <input class="subscribe__input" id="subscribe-email" type="email" placeholder="Ваш email" required>
+      </div>
+      <label class="subscribe__field">
+        <input class="subscribe__checkbox" type="checkbox">
+        <p class="subscribe__description">Я согласен на обработку персональных данных</p>
       </label>
-      <button class="subscribe__button" type="submit">Подписаться</button>
+      <button class="subscribe__button" type="submit">
+        <img class="subscribe__img" src="./img/media/Голубь.png" alt="Голубь с письмом в клюве">
+        Подписаться
+      </button>
     </form>
   </section>
 
