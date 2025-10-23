@@ -9,6 +9,10 @@
   --color-charcoal: #3d3f3f;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body,
 p,
 li,
@@ -55,6 +59,14 @@ h4 {
   margin-bottom: 12px;
 }
 
+a, button, input, li {
+  transition: color 0.4s ease-in-out, transform 0.3s ease;
+}
+
+a:hover, button:hover, input:hover, li:hover {
+  transform: scale(1.1);
+}
+
 p, input, button  {
   font-family: 'Lorenzo Sans', sans-serif;
   font-size: 18px;
@@ -91,15 +103,17 @@ body {
   position: relative;
   max-width: 1920px;
   margin: 0 auto;
-  flex-direction: column;
+  font-family: 'Lorenzo Sans', sans-serif;
   box-sizing: border-box;
   background-color: var(--color-stone);
 }
 
-body >* {
+.slider,
+.books,
+.auth {
+  max-width: 1200px;
   margin: 0 auto;
 }
-
 header {
   display: flex;
   flex-direction: row;
@@ -145,7 +159,7 @@ footer {
   padding: 10px 20px;
   text-align: center;
 }
-
+/* 
 .container-section-row {
   display: flex;
   flex-direction: row;
@@ -161,9 +175,11 @@ footer {
   gap: 15px;
   padding: 20px 30px;
   width: 1200px;
+} */
+
+@media (max-width: 1200px) {
+
 }
-
-
 
 @media (max-width: 768px) {
 
@@ -171,15 +187,7 @@ footer {
 
 @media (max-width: 648px) {
 
-}
-
-@media (max-width: 648px) {
-
-}
-
-@media (max-width: 648px) {
-
-}
+} 
 
 @media (max-width: 480px) {
 
