@@ -36,13 +36,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/* 
 input[type="email"],
 input[type="text"],
 input[type="password"] {
   -webkit-appearance: none;
-}
-
+} */
+/* 
 fieldset {
   border: 0;
   padding: 0;
@@ -51,7 +51,7 @@ fieldset {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */
 
 *:focus {
   outline: none;
