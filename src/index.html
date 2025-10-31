@@ -11,31 +11,31 @@
 </head>
 <body>
 
-  <header class="header container--row">
+  <header class="header container--row container--gap">
     <div class="logo">
       <img src="./img/icons/logo.svg" alt="Logotype" class="logo__img">
       <h2 class="logo__title">BookHaven</h2>
     </div>
     <nav class="nav">
-      <ul class="nav-list container--row ">
-        <li class="nav-list__item"><a href="#">Регистрация</a></li>
-        <li class="nav-list__item"><a href="#">Авторизация</a></li>
-        <li class="nav-list__item"><a href="#">Личный кабинет</a></li>
-        <li class="nav-list__item"><a href="#">О нас</a></li>
-        <li class="nav-list__item"><a href="#">Новые книги</a></li>
-        <li class="nav-list__item"><a href="#">Поиск</a></li>
-        <li class="nav-list__item"><a href="#">Отзывы</a></li>
-        <li class="nav-list__item"><a href="#">Контакты</a></li>
+      <ul class="nav-list container--row container--gap">
+        <li class="nav-list__item"><a href="./register.html">Регистрация</a></li>
+        <li class="nav-list__item"><a href="#auth">Авторизация</a></li>
+        <li class="nav-list__item"><a href="profile.html">Личный кабинет</a></li>
+        <li class="nav-list__item"><a href="#about">О нас</a></li>
+        <li class="nav-list__item"><a href="#new-books">Новые книги</a></li>
+        <li class="nav-list__item"><a href="#search">Поиск</a></li>
+        <li class="nav-list__item"><a href="#reviews">Отзывы</a></li>
+        <li class="nav-list__item"><a href="#contacts">Контакты</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="slider container--column">
+  <section class="slider container--column container--gap">
     <div class="slide--active">
       <div class="description container--column">
         <h1 class="description__title">Читайте любимые книги онлайн</h1>
         <p class="description__text">Загружайте свои книги или читайте книги, добавленные нами.</p>
-        <a class="description__link btn" href="read.html">Начать чтение</a>
+        <a class="description__link btn " href="read.html">Начать чтение</a>
       </div>
     </div>
     <div class="controls container--row">
@@ -43,7 +43,7 @@
         <img src="./img/icons/next-icon.svg" alt="Предыдущий слайд">
       </button>
 
-      <div class="thumbnails container--row">
+      <div class="thumbnails container--row container--gap">
         <img src="./img/media/citausaa-zensina-vid-sverhu.jpg" alt="review 1" class="thumbnails__slide">
         <img src="./img/media/krasiveisaa-zensina-ctenia-knigi.jpg" alt="review 2" class="thumbnails__slide">
         <img src="./img/media/pexels-martinpechy-922100.jpg" alt="review 3" class="thumbnails__slide">
@@ -55,17 +55,17 @@
     </div>
   </section>
 
-  <section class="auth container--column">
+  <section id="auth" class="auth container--column">
     <h2 class="auth__title">Войдите в свой аккаунт</h2>
     <form action="#" class="auth-form form">
       <input class="form__input" type="email" placeholder="Электронная почта">
       <input class="form__input" type="password" placeholder="Пароль">
-      <button class="form__button btn" type="submit">Войти</button>
+      <button class="form__button btn btn--secondary" type="submit">Войти</button>
       <a class="form__link" href="#">Забыли пароль?</a>
     </form>
   </section>
 
-  <section class="about container--column">
+  <section id="about" class="about container--column">
     <h2 class="about__title"> О нас</h2>
     <img src="./img/media/student-derzasii-knigu.jpg" alt="" class="about__im">
     <div class="description container--column">
@@ -82,69 +82,69 @@
     </div>
   </section>
 
-  <section class="features container--column">
+  <section class="features container--column container--gap">
     <h2 class="features__title">Видео о мероприятиях</h2>
     <video src="./video/howto.mp4" controls class="features__video"></video>
   </section>
 
-  <section class="books">
+  <section id="new-books" class="books">
     <h2 class="books__title">Новые книги</h2>
-    <div class="rack container--row">
+    <div class="rack container--row container--gap">
       <div class="book container--column">
         <img class="book__img" src="./img/media/books/nevesta.jpg" alt="">
-        <div class="descritption container--column">
+        <div class="description container--column">
           <h3 class="description__title">Невеста сумеречной Тени</h3>
           <p class="description__text">Меня казнили за участие в заговоре против императора. Как несправедливо, ведь я совершенно не при чем! Да, я знала, что брат императора владеет запретной магией Тени. Да, я 		шантажом вынудила его на мне жениться. Но я точно неповинна в государственной измене! К счастью, судьба дала мне второй шанс, вот только изменить будущее не так уж и просто: теперь сам 		великий князь не отпускает меня, а в столице Сиории по-прежнему зреет заговор, и я вынуждена бороться за свою жизнь посреди дворцовых интриг и запретной магии</p>
-          <a href="#" class="description__link btn">Читать</a>
+          <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
       <div class="book container--column">
         <img class="book__img" src="./img/media/books/chess.jpg" alt="">
-        <div class="descritption container--column">
+        <div class="description container--column">
           <h3 class="description__title">Игра на чужом поле</h3>
           <p class="description__text">Толе Штыбе предстоит вести свою партию сразу на нескольких чужих досках — от политической арены до коммерческого банка. Его жизнь закручивается по законам непростых девяностых: 		победа на выборах, рискованные ходы в кооперативе с «сибирскими» окнами, неожиданные «шахи» на новой должности в крайкоме и международный боксерский турнир в Норвегии. Штыбе нужно 		просчитывать ходы на несколько шагов вперед, где каждый промах может стать матом, а каждый удачный ход — новой победой.</p>
-          <a href="#" class="description__link btn">Читать</a>
+          <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
       <div class="book container--column">
         <img class="book__img" src="./img/media/books/all_about_ChatGPT.jpg" alt="">
-        <div class="descritption container--column">
+        <div class="description container--column">
           <h3 class="description__title">Всё об ИИ чат-боте ChatGPT</h3>
           <p class="description__text">Книга, которая представляет собой обзор и практическое руководство по использованию мощного инструмента искусственного интеллекта - чат-бота ChatGPT. Книга содержит 100 бизнес-	идей, которые можно реализовать, используя возможности ChatGPT, а также 100 запросов для автоматизации задач и 100 примеров бытовых запросов для улучшения жизни и повышения эффективности 	работы. В книге также описаны основные принципы работы и функции ChatGPT, а также даются советы по оптимальному использованию этого инструмента. "Всё об ИИ чат-боте ChatGPT" является 	необходимой книгой для тех, кто хочет использовать современные технологии для достижения своих целей в бизнесе и повседневной жизни.</p>
-          <a href="#" class="description__link btn">Читать</a>
+          <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
       <div class="book container--column">
         <img class="book__img" src="./img/media/books/pediatria.jpg" alt="">
-        <div class="descritption container--column">
+        <div class="description container--column">
           <h3 class="description__title">Занудная педиатрия для мам, пап, бабушек и дедушек: Разное про незаразное</h3>
           <p class="description__text">Роман Шиян – врач-педиатр с более чем 10-летним стажем, сторонник доказательного подхода в медицине, автор популярного блога «Занудная педиатрия». В книге он освещает самые разные 	темы, связанные с неинфекционными заболеваниями и расстройствами у детей, которые наиболее часто беспокоят его пациентов и читателей. Для чего младенца выкладывают на животик? Как лечат 	крапивницу, аллергический ринит и диарею? Что делать, если ребенка укачивает в транспорте или ужалила медуза? Какие симптомы бывают при воспалении аппендицита? Доктор Роман Шиян просто и 	понятно отвечает на эти и многие другие вопросы, приводит данные исследований и знакомит с современными подходами к терапии. После прочтения этой книги вы не станете врачом, однако она может 	позволить вам более осознанно относиться к здоровью своих детей, снизить уровень тревожности и иметь представление, почему врачи дают вам те или иные рекомендации и чего ожидать в 	дальнейшем.</p>
-          <a href="#" class="description__link btn">Читать</a>
+          <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
       <div class="book container--column">
         <img class="book__img" src="./img/media/books/cooking_on_russia.jpg" alt="">
-        <div class="descritption container--column">
+        <div class="description container--column">
           <h3 class="description__title">Готовим по-русски. Рецепты, традиции, наследие</h3>
           <p class="description__text">Русская кухня – это живой организм, который не перестает развиваться. Этот организм не только вбирает в себя новые мировые кулинарные тенденции, но и сам обогащает общемировую 	кулинарную культуру. Поэтому в своей новой книге Олег Ольхов приводит рецепты самых разных эпох и времен – от древнерусской кухни IX-XVI веков (по классификации В.В. Похлебкина) до 	современных рецептов признанных мастеров русской кухни. В книге есть интересные монастырские рецепты, основанные на современных русских кулинарных тенденциях, и традиционные рецепты, 	посвященные Пасхе и Рождеству Христову. Наконец собственные рецепты автора, основанные на опыте работы в ресторанах, в которых устроены русские печи.</p>
-          <a href="#" class="description__link btn">Читать</a>
+          <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
       <div class="book container--column">
         <img class="book__img" src="./img/media/books/eticet.jpg" alt="">
-        <div class="descritption container--column">
+        <div class="description container--column">
           <h3 class="description__title">Речь и этикет</h3>
           <p class="description__text">Эта книга рассказывает об одном из важных элементов человеческой культуры - о речевом этикете. Каждый из нас пользуется такими прекрасными "волшебными словами" русской речи, как 	здравствуйте, спасибо, извините, пожалуйста. Но в чем их волшебная сила? Почему они так необходимы? Над этим полезно задуматься. И только ли "волшебные слова" позволяют людям правильно 		выражать отношение друг к другу, делают общение вежливым, доброжелательным? Конечно, не только они. Стоит внимательно присмотреться к речи, как мы обнаружим в ней немало других этикетных 	средств, т. е. слов и оборотов речи, которые произносят, подчиняясь этикету - 	принятым правилам поведения. Вспомните хотя бы о русских обращениях. Да это целое богатство, если только мы 	умеем правильно их употреблять! Однако все ли из нас искусны в этом?
             Главная задача книги и заключается в том, чтобы помочь читателю овладеть этикетными средствами нашей речи.
             Книга показывает многообразие элементов этикета, рассказывает о принципах выбора этих элементов в зависимости.от условий общения. В необходимых случаях она знакомит читателя с историей 	этикета и его изменениями под влиянием меняющихся общественных отношений. Вместе с тем перед автором не стояла цель дать полное описание системы речевого этикета и его истории.
             Содержание этикета раскрывается в серии очерков, посвященных различным проявлениям этикетного поведения, с которыми так или иначе сталкивается школьник. Ребята общаются со сверстниками и 		взрослыми, наблюдают общение взрослых между собой, сами активно готовятся стать взрослыми. Они знакомятся с советской многонациональной литературой, с русской и зарубежной классикой. Все это 	учитывалось при выборе материала, который рассматривается в книге.</p>
-          <a href="#" class="description__link btn">Читать</a>
+          <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="search container--column">
+  <section id="search" class="search container--column">
     <h2 class="seacrh__title">Ищите что хотите!</h2>
     <form action="#" class="form container--row">
       <input type="text" class="form__input" list="book-suggestions" placeholder="Поиск по названию или автору...">
@@ -160,11 +160,11 @@
         <option value="Готовим по-русски">
         <option value="Ольхов Олег">
       </datalist>
-      <button class="from__btn btn" type="submit">Поиск</button>
+      <button class="form__btn btn btn--secondary" type="submit">Поиск</button>
     </form>
   </section>
 
-  <section class="reviews container--column">
+  <section id="reviews" class="reviews container--column">
     <h2 class="reviews__title">Отзывы читателей</h2>
 
     <div class="slider container--column">
@@ -225,21 +225,21 @@
   </section>
 
 
-  <footer class="footer container--row">
-    <div class="contacts container--column">
+  <footer class="footer container--row container--gap">
+    <div id="contacts" class="contacts container--column">
       <p class="contacts__contact">Телефон: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
       <p class="contacts__contact">Email: <a href="mailto:books@prof.ru">books@prof.ru</a></p>
     </div>
     <nav class="nav">
-      <ul class="nav-list container--row ">
-        <li class="nav-list__item"><a href="#">Регистрация</a></li>
-        <li class="nav-list__item"><a href="#">Авторизация</a></li>
-        <li class="nav-list__item"><a href="#">Личный кабинет</a></li>
-        <li class="nav-list__item"><a href="#">О нас</a></li>
-        <li class="nav-list__item"><a href="#">Новые книги</a></li>
-        <li class="nav-list__item"><a href="#">Поиск</a></li>
-        <li class="nav-list__item"><a href="#">Отзывы</a></li>
-        <li class="nav-list__item"><a href="#">Контакты</a></li>
+      <ul class="nav-list container--row container--gap">
+        <li class="nav-list__item"><a href="./register.html">Регистрация</a></li>
+        <li class="nav-list__item"><a href="#auth">Авторизация</a></li>
+        <li class="nav-list__item"><a href="profile.html">Личный кабинет</a></li>
+        <li class="nav-list__item"><a href="#about">О нас</a></li>
+        <li class="nav-list__item"><a href="#new-books">Новые книги</a></li>
+        <li class="nav-list__item"><a href="#search">Поиск</a></li>
+        <li class="nav-list__item"><a href="#reviews">Отзывы</a></li>
+        <li class="nav-list__item"><a href="#contacts">Контакты</a></li>
       </ul>
     </nav>
   </footer>

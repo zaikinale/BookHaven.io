@@ -115,19 +115,31 @@ body {
 .search,
 .reviews,
 .subscribe {
-  max-width: 1200px; /* или 1920px — как нужно */
+  max-width: 1200px;  
   margin: 0 auto;
-  padding: 20px 30px; /* или как у вас */
+  padding: 20px 30px;  
 }
 
-header {
+.slider__title,
+.auth__title,
+.about__title,
+.books__title,
+.features__title,
+.search__title,
+.reviews__title,
+.subscribe__title {
+  text-align: center;
+  color: var(--color-forest);
+}
+
+/* header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 15px 60px;
   background-color: var(--color-parchment);
-}
+} */
 
 .logo {
   display: flex;
@@ -136,34 +148,42 @@ header {
   justify-content: center;
   gap: 5px;
 }
-.logo >* {
+
+.logo__title {
   line-height: 0;
   margin: 0;
 }
 
-.logo > img {
+.logo__img {
   width: 40px;
 }
-nav > ul {
+
+/* nav > ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
-}
+} */
 
-footer {
+/* footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 15px 60px;
-}
-
+} */
 
 .btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
   color: var(--color-stone);
   background-color: var(--color-forest);
-  padding: 10px 20px;
-  text-align: center;
+}
+.btn:hover {
+  color: var(--color-meadow);
+  text-decoration: none;
 }
 /* 
 .container-section-row {
