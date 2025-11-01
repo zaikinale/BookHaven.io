@@ -28,6 +28,7 @@
   background-color: var(--color-parchment);
   flex-wrap: wrap;
   justify-content: space-between !important;
+  /* align-items: center !important; */
   box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
 }
 
@@ -54,7 +55,6 @@
   display: none;
 }
 
-
 .slider {
   max-height: 800px;
 }
@@ -65,8 +65,8 @@
   background-image: url('../img/media/books/chess.jpg');
   background-size: cover;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
+  align-items: end;
+  justify-content: center;
 }
 
 .description {
@@ -74,7 +74,6 @@
   width: 400px;
   background-color: var(--color-parchment);
   margin: 20px;
-  align-items: center;
 }
 
 .description__title {
@@ -291,10 +290,10 @@
 }
 
 .btn__img {
-    position: absolute;
-    width: 140px;
-    right: -50px;
-    top: -100px;
+  position: absolute;
+  width: 140px;
+  right: -50px;
+  top: -100px;
 }
 
 .form__btn {
@@ -330,14 +329,19 @@
   text-decoration: none;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 1400px) {
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
   .header {
     padding-left: 5%;
     padding-right: 5%;
+    flex-direction: row;
   }
 
   .header > .nav {
@@ -352,6 +356,9 @@
 
   .menu__btn {
     margin: 0;
+  }
+
+  .slide--active {
   }
 
   .search > .form  {
