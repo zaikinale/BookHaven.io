@@ -8,19 +8,6 @@
   --color-charcoal: #3d3f3f;
 }
 
-.btn--secondary { 
-  background-color: var(--color-stone); 
-  color: var(--color-forest); 
-}
-
-.section-radius {
-  border-radius: 20px;
-}
-
-.section-padding {
-  padding: 20px;
-}
-
 .header {
   position: sticky;
   top: 0;

@@ -162,6 +162,11 @@ span {
   transform: scale(1.1);
 }
 
+.btn--secondary { 
+  background-color: var(--color-stone); 
+  color: var(--color-forest); 
+}
+
 .container--gap {
   gap: 20px;
 }
@@ -181,6 +186,15 @@ span {
   justify-content: center;
   gap: 10px;
 }
+
+.section-radius {
+  border-radius: 20px;
+}
+
+.section-padding {
+  padding: 20px;
+}
+
 
 @media (max-width: 1200px) {}
 @media (max-width: 768px) {}
