@@ -50,6 +50,11 @@
   color: var(--color-meadow);
 }
 
+.burger-menu {
+  display: none;
+}
+
+
 .slider {
   max-height: 800px;
 }
@@ -321,8 +326,28 @@
 }
 
 @media (max-width: 1200px) {
+
 }
 @media (max-width: 768px) {
+  .header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .header > .nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu__btn {
+    margin: 0;
+  }
+
   .search > .form  {
     width: 80%;
     flex-wrap: wrap;
