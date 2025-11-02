@@ -139,7 +139,7 @@ section > h2 {
   width: 600px;
 }
 
-.thumbnails__slide {
+.slider__thumbnail {
   max-width: 100px;
   width: inherit;
   height: inherit;

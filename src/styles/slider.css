@@ -25,7 +25,7 @@
 
 }
 
-.slider__slide--reviw {
+.slider__slide--review {
     height: initial;
     flex-direction: row;
     align-items: center;
@@ -61,10 +61,12 @@
     gap: 20px;
 }
 
-.controls__thumbnails {
+.slider__thumbnails {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
+
+
