@@ -1,0 +1,82 @@
+
+
+.rack {
+    flex-wrap: wrap;
+}
+
+
+
+
+.books {
+    /* height: 680px; */
+}
+
+.books__rack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.rack__book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    padding: 20px;
+    background-color: var(--color-meadow);
+    border-radius: 20px;
+}
+
+
+
+.rack__img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.rack__description {
+    width: 280px;
+    background: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rack__description > .description__title {
+    color: var(--color-stone);
+    height: 40px;
+    overflow: hidden;
+}
+
+.rack__description > .description__text {
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.rack__description > .btn {
+    width: 95%;
+}
+
+.next-books {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rack__btn {
+    width: 95%;
+    padding: 10px 20px;
+}

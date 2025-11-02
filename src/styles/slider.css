@@ -1,0 +1,70 @@
+
+.slider {
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slider__slide {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.slider__slide--main {
+    align-items: end;
+    background-image: url('../img/media/books/chess.jpg');
+
+}
+
+.slider__slide--reviw {
+    height: initial;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.slider__description {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.slider__description--main {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider__description--review {
+    align-items: start;
+    justify-content: start;
+}
+
+.slider__controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.controls__thumbnails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}

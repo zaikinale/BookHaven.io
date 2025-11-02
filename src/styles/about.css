@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.about__img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about > .description {
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
