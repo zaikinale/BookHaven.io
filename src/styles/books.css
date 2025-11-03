@@ -1,14 +1,5 @@
-
-
 .rack {
     flex-wrap: wrap;
-}
-
-
-
-
-.books {
-    /* height: 680px; */
 }
 
 .books__rack {
@@ -20,7 +11,6 @@
     gap: 20px;
 }
 
-
 .rack__book {
     display: flex;
     flex-direction: column;
@@ -31,8 +21,6 @@
     background-color: var(--color-meadow);
     border-radius: 20px;
 }
-
-
 
 .rack__img {
     width: 90%;

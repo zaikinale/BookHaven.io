@@ -1,4 +1,3 @@
-
 .subscribe {
     display: flex;
     flex-direction: column;
@@ -14,6 +13,7 @@
     justify-content: center;
     gap: 20px;
 }
+
 .form__title {
     color: var(--color-stone);
 }
@@ -26,7 +26,6 @@
     gap: 10px;
     width: 100%;
 }
-
 
 .form__label {
     flex-shrink: 0;

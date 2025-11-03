@@ -5,10 +5,10 @@
     justify-content: center;
     gap: 20px;
 }
-
+/* 
 .search__title {
     
-}
+} */
 
 .search__form {
     display: flex;
@@ -32,28 +32,19 @@
     width: 100px;
 }
 
-/* 
-.form__suggestions {
-
-} */
-
-
-
 @media (max-width: 768px) {
-  .search__form {
-    width: 80%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .slide--review {
-    width: 80%;
-  }
+    .search__form {
+        width: 80%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 
-  .controls {
-    width: 80%;
-  }
+    .slide--review {
+        width: 80%;
+    }
 
-
+    .controls {
+        width: 80%;
+    }
 }

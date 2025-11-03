@@ -1,4 +1,3 @@
-
 .slider {
     max-height: 800px;
     display: flex;
@@ -22,7 +21,6 @@
 .slider__slide--main {
     align-items: end;
     background-image: url('../img/media/books/chess.jpg');
-
 }
 
 .slider__slide--review {
@@ -30,7 +28,6 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .slider__description {
@@ -45,7 +42,6 @@
 .slider__description--main {
     align-items: center;
     justify-content: center;
-
 }
 
 .slider__description--review {
@@ -68,5 +64,3 @@
     justify-content: space-between;
     gap: 20px;
 }
-
-
