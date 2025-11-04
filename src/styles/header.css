@@ -41,6 +41,11 @@
     display: none;
 }
 
+.header__btn {
+    background-color: var(--color-forest);
+    color: var(--color-parchment);
+}
+
 @media (max-width: 1400px) {
     .header {
     display: flex;

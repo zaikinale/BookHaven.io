@@ -110,15 +110,11 @@ section > h2 {
 .btn {
   padding: 10px 15px;
   border-radius: 10px;
-  color: var(--color-stone);
-  background-color: var(--color-forest);
+  /* color: var(--color-stone);
+  background-color: var(--color-forest); */
   text-decoration: none;
-  display: inline-block;
   text-align: center;
   font-family: 'Lorenzo Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .btn:hover, .btn:focus {
@@ -128,10 +124,17 @@ section > h2 {
   transform: scale(1.1);
 }
 
+.btn--primary {
+  background-color: var(--color-forest);
+  color: var(--color-stone);
+  width: 95%;
+}
+
 .btn--secondary { 
   background-color: var(--color-stone); 
   color: var(--color-forest); 
 }
+
 
 .slider__thumbnail {
   max-width: 100px;
