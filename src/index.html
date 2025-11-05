@@ -39,7 +39,7 @@
     </div>
 
     <div class="slider__controls">
-      <button class="slider__btn btn btn--primary">Предыдущий</button>
+      <button id="btn_before_slider_main" class="slider__btn btn btn--primary">Предыдущий</button>
 
       <div class="slider__thumbnails">
         <img src="./img/media/books/cooking_on_russia.jpg" alt="Превью книги 1" class="slider__thumbnail">
@@ -47,7 +47,7 @@
         <img src="./img/media/books/all_about_ChatGPT.jpg" alt="Превью книги 3" class="slider__thumbnail">
       </div>
 
-      <button class="slider__btn btn btn--primary">Следующий</button>
+      <button id="btn_before_slider_main" class="slider__btn btn btn--primary">Следующий</button>
     </div>
   </section>
 
@@ -56,7 +56,7 @@
     <form action="#" class="auth__form form">
       <input class="form__input" type="email" name="email" placeholder="Электронная почта">
       <input class="form__input" type="password" name="password" placeholder="Пароль">
-      <button class="form__btn btn btn--secondary" type="submit">Войти</button>
+      <button id="btn_auth" class="form__btn btn btn--secondary" type="submit">Войти</button>
     </form>
     <a class="auth__link" href="#">Забыли пароль?</a>
   </section>
@@ -130,7 +130,7 @@
         <div class="rack__description description">
           <div class="description__title">Читай другие!</div>
         </div>
-        <button class="rack__btn btn btn--secondary">Читать</button>
+        <button id="btn_read_new_books" class="rack__btn btn btn--secondary">Читать</button>
       </div>
     </div>
   </section>
@@ -151,7 +151,7 @@
         <option value="Готовим по-русски">
         <option value="Ольхов Олег">
       </datalist>
-      <button class="form__btn btn btn--secondary" type="submit">Поиск</button>
+      <button id="btn_search" class="form__btn btn btn--secondary" type="submit">Поиск</button>
     </form>
   </section>
 
@@ -178,7 +178,7 @@
 
       </div>
       <div class="slider__controls">
-        <button class="slider__btn btn btn--primary">Предыдущий</button>
+        <button id="btn_before_slider_reviews" class="slider__btn btn btn--primary">Предыдущий</button>
 
         <div class="slider__thumbnails">
           <img src="./img/media/reviews/author_2.jpg" alt="Превью отзыва автора 2" class="slider__thumbnail">
@@ -186,7 +186,7 @@
           <img src="./img/media/reviews/author_4.jpg" alt="Превью отзыва автора 4" class="slider__thumbnail">
         </div>
 
-        <button class="slider__btn btn btn--primary">Следующий</button>
+        <button id="btn_after_slider_reviews" class="slider__btn btn btn--primary">Следующий</button>
       </div>
     </div>
   </section>
@@ -203,7 +203,7 @@
         <input id="consent-checkbox" name="consent" class="form__checkbox" type="checkbox">
         <label for="consent-checkbox" class="form__description">Я согласен на обработку персональных данных</label>
       </div>
-      <button class="form__btn" type="submit">
+      <button id="btn_subscribe_news" class="form__btn" type="submit">
         <img class="form__img" src="./img/media/golub.png" alt="Подпишись!">
         Подписаться
       </button>
