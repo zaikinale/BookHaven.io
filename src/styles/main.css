@@ -223,15 +223,15 @@ section > h2 {
   gap: 10px;
 }
 
-.container--center {
+.container-center {
   align-items: center;
 }
 
-.container-element--center {
+.container-element-center {
   justify-content: center;
 }
 
-.container-element--space {
+.container-element-space {
   justify-content: space-between;
 }
 
@@ -241,4 +241,14 @@ section > h2 {
 
 .container-column {
   flex-direction: column;
+}
+
+/* Добавить отступы через класс */
+
+.gap-big {
+  gap: 20px;
+}
+
+.gap-small {
+  gap: 10px;
 }

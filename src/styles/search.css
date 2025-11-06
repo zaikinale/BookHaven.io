@@ -18,15 +18,18 @@
     /* gap: 10px; */
     border-radius: 20px;
     padding: 10px;
-    width: 700px;
+    width: 700px !important;
     flex-shrink: 0;
     white-space: nowrap;
 }
 
 .search__form > .form__input {
     flex-grow: 1;
-
 }
+
+.search__form > .form__input:hover, .form__input:focus {
+    transform: scale(1.02) !important;
+} 
 
 .search__form > .form__btn {
     width: 100px;
