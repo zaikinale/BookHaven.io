@@ -1,9 +1,9 @@
 .about {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: center; */
+    /* gap: 10px; */
 }
 
 .about__img {
@@ -15,8 +15,8 @@
     width: 100%;
     border-radius: 20px;
     padding: 20px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }

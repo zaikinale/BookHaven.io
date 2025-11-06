@@ -7,41 +7,41 @@
     content="BookHaven - это уникальная платформа для бесплатного чтения книг, где каждый найдет что-то по душе. Обширная библиотека: классика, бестселлеры, научпоп, детские сказки. Читайте онлайн или скачивайте — бесплатно, без подписок и скрытых платежей.">
   <!-- <link rel="icon" href="./img/icons/logo.svg" type="image/x-icon"> -->
   <title>BookHaven</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
 
-  <header class="header">
+  <header class="header container container-row container--center container-element--space">
     <h2 class="header__title">BookHaven</h2>
-    <nav class="header__nav">
-        <a class="header__item" href="./register.html">Регистрация</a>
-        <a class="header__item" href="./index.html#auth">Авторизация</a>
-        <a class="header__item" href="./index.htmlprofile.html">Личный кабинет</a>
-        <a class="header__item" href="./index.html#about">О нас</a>
-        <a class="header__item" href="./index.html#new-books">Новые книги</a>
-        <a class="header__item" href="./index.html#search">Поиск</a>
-        <a class="header__item" href="./index.html#reviews">Отзывы</a>
-        <a class="header__item" href="./index.html#contacts">Контакты</a>
+    <nav class="header__nav container container-row container--center container-element--center">
+        <a class="header__link" href="./register.html">Регистрация</a>
+        <a class="header__link" href="./index.html#auth">Авторизация</a>
+        <a class="header__link" href="./index.htmlprofile.html">Личный кабинет</a>
+        <a class="header__link" href="./index.html#about">О нас</a>
+        <a class="header__link" href="./index.html#new-books">Новые книги</a>
+        <a class="header__link" href="./index.html#search">Поиск</a>
+        <a class="header__link" href="./index.html#reviews">Отзывы</a>
+        <a class="header__link" href="./index.html#contacts">Контакты</a>
     </nav>
-    <div class="header__buttons">
+    <div class="header__buttons container container--center container-row">
       <button id="btn_toggle_theme" class="header__btn btn">Переключить тему</button>
       <button id="btn_toggle_menu" class="header__btn btn">Меню</button>
     </div>
   </header>
 
-  <section class="slider">
-    <div class="slider__slide slider__slide--main">
-      <div class="slider__description slider__description--main description">
+  <section class="slider container container-column container--center container-element--center">
+    <div class="slider__slide slider__slide--main container container-element--center">
+      <div class="slider__description slider__description--main description container container-column">
         <h1 class="description__title">Читайте любимые книги онлайн</h1>
         <p class="description__text">Загружайте свои книги или читайте книги, добавленные нами.</p>
         <a class="description__link btn btn--primary" href="./read.html">Начать чтение</a>
       </div>
     </div>
 
-    <div class="slider__controls">
+    <div class="slider__controls container container-row container--center container-element--center">
       <button id="btn_before_slider_main" class="slider__btn btn btn--primary">Предыдущий</button>
 
-      <div class="slider__thumbnails">
+      <div class="slider__thumbnails container container-row container--center container-element--space">
         <img src="./img/media/books/cooking_on_russia.jpg" alt="Превью книги 1" class="slider__thumbnail">
         <img src="./img/media/books/auto_yoirist.jpg" alt="Превью книги 2" class="slider__thumbnail">
         <img src="./img/media/books/all_about_ChatGPT.jpg" alt="Превью книги 3" class="slider__thumbnail">
@@ -51,7 +51,7 @@
     </div>
   </section>
 
-  <section id="auth" class="auth">
+  <section id="auth" class="auth container container-column container--center container-element--center
     <h2 class="auth__title ">Войдите в свой аккаунт</h2>
     <form action="#" class="auth__form form">
       <input class="form__input" type="email" name="email" placeholder="Электронная почта">
@@ -61,10 +61,10 @@
     <a class="auth__link" href="#">Забыли пароль?</a>
   </section>
 
-  <section id="about" class="about">
+  <section id="about" class="about container container-column container--center container-element--center"> 
     <h2 class="about__title"> О нас</h2>
     <img src="./img/media/books/Anti-fine2018.jpg" alt="Превью блока" class="about__img">
-    <div class="description">
+    <div class="description container container-column container--center container-element--center">
       <div class="description__text">BookHaven — это уникальная платформа для бесплатного чтения книг, где каждый найдет что-то по душе. На нашем сайте собрана обширная библиотека произведений различных жанров: от классической литературы до современных бестселлеров, научно-популярных книг и детских сказок. Мы стремимся сделать чтение доступным для всех, поэтому наш ресурс полностью бесплатный и не требует подписок или скрытых платежей.</div>
       <div class="description__text">На BookHaven вы сможете:</div>
       <ul class="list">
@@ -78,56 +78,56 @@
     </div>
   </section>
 
-  <section class="features">
+  <section class="features container container-column container--center container-element--center ">
     <h2 class="features__title">Видео о мероприятиях</h2>
     <video src="./video/howto.mp4" controls class="features__video" aria-label="Видео с мероприятий у нас"></video>
   </section>
 
   <section id="new-books" class="books">
     <h2 class="books__title ">Новые книги</h2>
-    <div class="books__rack rack">
-      <div class="rack__book">
+    <div class="books__rack container container-row container--center container-element--space">
+      <div class="rack__book container container-column container--center container-element--center ">
         <img class="rack__img" src="./img/media/books/nevesta.jpg" alt="Книга Невеста сумречной тени">
-        <div class="rack__description description">
+        <div class="rack__description description container container-column container--center container-element--center  ">
           <h3 class="description__title">Невеста сумеречной Тени</h3>
           <p class="description__text">Меня казнили за участие в заговоре против императора. Как несправедливо, ведь я совершенно не при чем! Да, я знала, что брат императора владеет запретной магией Тени. Да, я 		шантажом вынудила его на мне жениться. Но я точно неповинна в государственной измене! К счастью, судьба дала мне второй шанс, вот только изменить будущее не так уж и просто: теперь сам 		великий князь не отпускает меня, а в столице Сиории по-прежнему зреет заговор, и я вынуждена бороться за свою жизнь посреди дворцовых интриг и запретной магии</p>
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book book">
+      <div class="rack__book container container-column container--center container-element--center ">
         <img class="rack__img" src="./img/media/books/chess.jpg" alt="Книга игра на чужом поле">
-        <div class="rack__description description">
+        <div class="rack__description description container container-column container--center container-element--center  ">
           <h3 class="description__title">Игра на чужом поле</h3>
           <p class="description__text">Толе Штыбе предстоит вести свою партию сразу на нескольких чужих досках — от политической арены до коммерческого банка. Его жизнь закручивается по законам непростых девяностых: 		победа на выборах, рискованные ходы в кооперативе с «сибирскими» окнами, неожиданные «шахи» на новой должности в крайкоме и международный боксерский турнир в Норвегии. Штыбе нужно 		просчитывать ходы на несколько шагов вперед, где каждый промах может стать матом, а каждый удачный ход — новой победой.</p>
           <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book">
+      <div class="rack__book container container-column container--center container-element--center ">
         <img class="rack__img" src="./img/media/books/all_about_ChatGPT.jpg" alt="Книга все об ИИ чат-боте ChatGPT">
-        <div class="rack__description description">
+        <div class="rack__description description container container-column container--center container-element--center  ">
           <h3 class="description__title">Всё об ИИ чат-боте ChatGPT</h3>
           <p class="description__text">Книга, которая представляет собой обзор и практическое руководство по использованию мощного инструмента искусственного интеллекта - чат-бота ChatGPT. Книга содержит 100 бизнес-	идей, которые можно реализовать, используя возможности ChatGPT, а также 100 запросов для автоматизации задач и 100 примеров бытовых запросов для улучшения жизни и повышения эффективности 	работы. В книге также описаны основные принципы работы и функции ChatGPT, а также даются советы по оптимальному использованию этого инструмента. "Всё об ИИ чат-боте ChatGPT" является 	необходимой книгой для тех, кто хочет использовать современные технологии для достижения своих целей в бизнесе и повседневной жизни.</p>
           <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book">
+      <div class="rack__book container container-column container--center container-element--center ">
         <img class="rack__img" src="./img/media/books/pediatria.jpg" alt="Книга Занудная педиатрия">
-        <div class="rack__description description">
+        <div class="rack__description description container container-column container--center container-element--center  ">
           <h3 class="description__title">Занудная педиатрия для мам, пап, бабушек и дедушек: Разное про незаразное</h3>
           <p class="description__text">Роман Шиян – врач-педиатр с более чем 10-летним стажем, сторонник доказательного подхода в медицине, автор популярного блога «Занудная педиатрия». В книге он освещает самые разные 	темы, связанные с неинфекционными заболеваниями и расстройствами у детей, которые наиболее часто беспокоят его пациентов и читателей. Для чего младенца выкладывают на животик? Как лечат 	крапивницу, аллергический ринит и диарею? Что делать, если ребенка укачивает в транспорте или ужалила медуза? Какие симптомы бывают при воспалении аппендицита? Доктор Роман Шиян просто и 	понятно отвечает на эти и многие другие вопросы, приводит данные исследований и знакомит с современными подходами к терапии. После прочтения этой книги вы не станете врачом, однако она может 	позволить вам более осознанно относиться к здоровью своих детей, снизить уровень тревожности и иметь представление, почему врачи дают вам те или иные рекомендации и чего ожидать в 	дальнейшем.</p>
           <a href="#" class="description__link btn  btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book">
+      <div class="rack__book container container-column container--center container-element--center ">
         <img class="rack__img" src="./img/media/books/cooking_on_russia.jpg" alt="Книга готовим по русски">
-        <div class="rack__description description">
+        <div class="rack__description description container container-column container--center container-element--center  ">
           <h3 class="description__title">Готовим по-русски. Рецепты, традиции, наследие</h3>
           <p class="description__text">Русская кухня – это живой организм, который не перестает развиваться. Этот организм не только вбирает в себя новые мировые кулинарные тенденции, но и сам обогащает общемировую 	кулинарную культуру. Поэтому в своей новой книге Олег Ольхов приводит рецепты самых разных эпох и времен – от древнерусской кухни IX-XVI веков (по классификации В.В. Похлебкина) до 	современных рецептов признанных мастеров русской кухни. В книге есть интересные монастырские рецепты, основанные на современных русских кулинарных тенденциях, и традиционные рецепты, 	посвященные Пасхе и Рождеству Христову. Наконец собственные рецепты автора, основанные на опыте работы в ресторанах, в которых устроены русские печи.</p>
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book next-books">
-        <div class="rack__description description">
+      <div class="rack__book container container-column container--center container-element--center  next-books">
+        <div class="rack__description description container container-column container--center container-element--center  ">
           <div class="description__title">Читай другие!</div>
         </div>
         <button id="btn_read_new_books" class="rack__btn btn btn--secondary">Читать</button>
@@ -135,9 +135,9 @@
     </div>
   </section>
 
-  <section id="search" class="search">
+  <section id="search" class="search container container-column container--center container-element--center ">
     <h2 class="search__title">Ищите что хотите!</h2>
-    <form action="#" class="search__form form">
+    <form action="#" class="search__form form container container-row container--center container-element--space ">
       <input type="search" class="form__input" list="book-suggestions" placeholder="Поиск по названию или автору...">
       <datalist id="book-suggestions" class="form__suggestions search__suggestions">
         <option value="Невеста сумеречной Тени">
@@ -158,29 +158,29 @@
   <section id="reviews" class="reviews">
     <h2 class="reviews__title">Отзывы читателей</h2>
 
-    <div class="reviews__slider slider">
-      <div class="slider__slide slider__slide--review">
+    <div class="reviews__slider slider container container-column container--center container-element--center">
+      <div class="slider__slide slider__slide--review container container-row container--center container-element--center">
         <img src="./img/media/reviews/author_1.jpg" alt="Автор отзыва 1" class="slider__img">
-        <div class="slider__description slider__description--review description">
+        <div class="slider__description slider__description--review description container container-column container--center">
           <h3 class="description__title">Мария Чирнявская</h3>
-          <div class="description__grade">
-            <div class="description__rating">
+          <!-- <div class="description__grade"> -->
+            <div class="description__rating container container-row container--center container-element--center">
               <img src="./img/media/star.png" alt="Звезда" class="description__img">
               <img src="./img/media/star.png" alt="Звезда" class="description__img">
               <img src="./img/media/star.png" alt="Звезда" class="description__img">
               <img src="./img/media/star.png" alt="Звезда" class="description__img">
               <img src="./img/media/star.png" alt="Звезда" class="description__img">
             </div>
-            <time class="description__date" datetime="2024-10-15">15.10.2024</time>
-          </div>
+          <!-- </div> -->
           <p class="description__text">Очень увлекательная история "Невеста сумеречной Тени" с элементами магии и дворцовых интриг. Главная героиня сильная и харизматичная, а сюжет держит в напряжении до последней страницы. Любителям фантастики и 		романтики — обязательно к прочтению!</p>
+          <time class="description__date" datetime="2024-10-15">15.10.2024</time>
         </div>
 
       </div>
-      <div class="slider__controls">
+      <div class="slider__controls container container-row container--center container-element--center">
         <button id="btn_before_slider_reviews" class="slider__btn btn btn--primary">Предыдущий</button>
 
-        <div class="slider__thumbnails">
+        <div class="slider__thumbnails container container-row container--center container-element--space">
           <img src="./img/media/reviews/author_2.jpg" alt="Превью отзыва автора 2" class="slider__thumbnail">
           <img src="./img/media/reviews/author_3.jpg" alt="Превью отзыва автора 3" class="slider__thumbnail">
           <img src="./img/media/reviews/author_4.jpg" alt="Превью отзыва автора 4" class="slider__thumbnail">
@@ -191,15 +191,15 @@
     </div>
   </section>
 
-  <section class="subscribe">
+  <section class="subscribe container container-column container--center container-element--center">
     <h2 class="subscribe__title">Подпишись на рассылку!</h2>
-    <form class="subscribe__form form">
+    <form class="subscribe__form form container container--center container-element--center">
       <h3 class="form__title">Подписка на новости</h3>
-      <div class="form__field">
+      <div class="form__field container container-row container--center container-element--center">
         <label class="form__label" for="field-email">E-mail:</label>
         <input class="form__input" id="field-email" name="email" type="email" placeholder="Ваш email" required>
       </div>
-      <div class="form__field">
+      <div class="form__field container container-row container--center container-element--center">
         <input id="consent-checkbox" name="consent" class="form__checkbox" type="checkbox">
         <label for="consent-checkbox" class="form__description">Я согласен на обработку персональных данных</label>
       </div>
@@ -211,20 +211,20 @@
   </section>
 
 
-  <footer class="footer">
-    <div id="contacts" class="footer__contacts">
+  <footer class="footer container container-row container--center container-element--space">
+    <div id="contacts" class="footer__contacts container container-column  ">
       <p class="footer__contact">Телефон: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
       <p class="footer__contact">Email: <a href="mailto:books@prof.ru">books@prof.ru</a></p>
     </div>
-    <nav class="footer__nav">
-      <a class="footer__item" href="./register.html">Регистрация</a>
-      <a class="footer__item" href="./index.html#auth">Авторизация</a>
-      <a class="footer__item" href="./index.htmlprofile.html">Личный кабинет</a>
-      <a class="footer__item" href="./index.html#about">О нас</a>
-      <a class="footer__item" href="./index.html#new-books">Новые книги</a>
-      <a class="footer__item" href="./index.html#search">Поиск</a>
-      <a class="footer__item" href="./index.html#reviews">Отзывы</a>
-      <a class="footer__item" href="./index.html#contacts">Контакты</a>
+    <nav class="footer__nav container container-row container--center container-element--center">
+      <a class="footer__link" href="./register.html">Регистрация</a>
+      <a class="footer__link" href="./index.html#auth">Авторизация</a>
+      <a class="footer__link" href="./index.htmlprofile.html">Личный кабинет</a>
+      <a class="footer__link" href="./index.html#about">О нас</a>
+      <a class="footer__link" href="./index.html#new-books">Новые книги</a>
+      <a class="footer__link" href="./index.html#search">Поиск</a>
+      <a class="footer__link" href="./index.html#reviews">Отзывы</a>
+      <a class="footer__link" href="./index.html#contacts">Контакты</a>
   </nav>
   </footer>
 </body>

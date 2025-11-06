@@ -1,9 +1,9 @@
 .reviews__slider {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: center; */
+    /* gap: 10px; */
     border-radius: 20px;
 }
 
@@ -15,11 +15,11 @@
 }
 
 .description__rating {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 5px;
+    justify-content: center; */
+    gap: 5px !important;
 }
 
 .description__img {
@@ -32,7 +32,7 @@
     height: 90px;
     overflow: hidden;
 }
-
+/* 
 .description__grade {
     display: flex;
     flex-direction: row;
@@ -40,4 +40,4 @@
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
-}
+} */

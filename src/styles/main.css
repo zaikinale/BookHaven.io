@@ -1,6 +1,17 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 
+@import url('./header.css');
+@import url('./slider.css');
+@import url('./auth.css');
+@import url('./about.css');
+@import url('./features.css');
+@import url('./books.css');
+@import url('./search.css');
+@import url('./reviews.css');
+@import url('./subscribe.css');
+@import url('./footer.css');
+
 :root {
   --color-forest: #28724f;
   --color-meadow: #34a56f;
@@ -27,7 +38,7 @@ h1, h2, h3, h4, p, span, input, button, a {
 }
 
 h1, h2, h3 {
-  font-family: 'Intro Head R', serif;
+  font-family: 'Intro Head R', serif; /* запасной шрифт */
   font-weight: 400;
   margin-bottom: 24px;
 }
@@ -50,7 +61,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Lorenzo Sans', sans-serif;
+  font-family: 'Lorenzo Sans', sans-serif;  /* запасной шрифт */
   font-size: 20px;
   font-weight: 600;
   line-height: 1.4;
@@ -58,13 +69,13 @@ h4 {
 }
 
 p, input, button {
-  font-family: 'Lorenzo Sans', sans-serif;
+  font-family: 'Lorenzo Sans', sans-serif;  /* запасной шрифт */
   font-size: 18px;
   font-weight: 400;
 }
 
 a {
-  font-family: 'Lorenzo Sans', sans-serif;
+  font-family: 'Lorenzo Sans', sans-serif;  /* запасной шрифт */
   font-size: 18px;
   font-weight: 500;
   color: var(--color-meadow);
@@ -73,7 +84,7 @@ a {
 
 a:hover, a:focus {
   color: var(--color-forest);
-  text-decoration: underline;
+  text-decoration: none;
   transform: scale(1.1);
 }
 
@@ -112,15 +123,13 @@ section > h2 {
   border-radius: 10px;
   /* color: var(--color-stone);
   background-color: var(--color-forest); */
-  text-decoration: none;
   text-align: center;
-  font-family: 'Lorenzo Sans', sans-serif;
+  font-family: 'Lorenzo Sans', sans-serif; /* запасной шрифт */
 }
 
 .btn:hover, .btn:focus {
   color: var(--color-meadow);
   background-color: var(--color-forest);
-  text-decoration: none;
   transform: scale(1.1);
 }
 
@@ -173,12 +182,11 @@ section > h2 {
   padding: 20px;
 }
 
-.description__title {
+.description__title { /*Эти стили к h1 надо или вынести вообще от сюды*/
   text-align: center;
   font-weight: bold;
   font-size: 30px;
   color: var(--color-forest);
-  margin: 0;
 }
 
 .description__link {
@@ -209,8 +217,28 @@ section > h2 {
 .form__btn:hover {
   background-color: var(--color-forest);
 }
-/* 
-@media (max-width: 1200px) {}
-@media (max-width: 768px) {}
-@media (max-width: 648px) {}
-@media (max-width: 480px) {} */
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.container--center {
+  align-items: center;
+}
+
+.container-element--center {
+  justify-content: center;
+}
+
+.container-element--space {
+  justify-content: space-between;
+}
+
+.container-row {
+  flex-direction: row;
+}
+
+.container-column {
+  flex-direction: column;
+}
