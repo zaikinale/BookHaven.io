@@ -1,9 +1,4 @@
 .reviews__slider {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    /* gap: 10px; */
     border-radius: 20px;
 }
 
@@ -15,10 +10,6 @@
 }
 
 .description__rating {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; */
     gap: 5px !important;
 }
 
@@ -32,12 +23,3 @@
     height: 90px;
     overflow: hidden;
 }
-/* 
-.description__grade {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-} */

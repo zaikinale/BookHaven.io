@@ -1,4 +1,4 @@
-@import url('./reset.css');
+/* @import url('./reset.css'); */
 @import url('./fonts.css');
 
 @import url('./header.css');
@@ -11,6 +11,50 @@
 @import url('./reviews.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+button {
+  -webkit-appearance: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+*:focus {
+  outline: none;
+}
+
 
 :root {
   --color-forest: #28724f;
@@ -121,8 +165,6 @@ section > h2 {
 .btn {
   padding: 10px 15px;
   border-radius: 10px;
-  /* color: var(--color-stone);
-  background-color: var(--color-forest); */
   text-align: center;
   font-family: 'Lorenzo Sans', sans-serif; /* запасной шрифт */
 }
@@ -136,7 +178,6 @@ section > h2 {
 .btn--primary {
   background-color: var(--color-forest);
   color: var(--color-stone);
-  width: 95%;
 }
 
 .btn--secondary { 
