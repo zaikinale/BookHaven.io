@@ -1,6 +1,6 @@
 .subscribe__form {
     border-radius: 40px;
-    padding: 40px 30px !important;
+    /* padding: 40px 30px; */
 }
 
 .form__title {
@@ -12,14 +12,14 @@
 }
 
 .form__label {
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     white-space: nowrap;
     font-weight: 500;
     color: var(--color-stone);
 }
 
 .form__input {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     padding: 8px 10px;
     border-radius: 10px;
     border: 1px solid transparent;
@@ -35,7 +35,6 @@
 .form__description {
     width: 80%;
     color: var(--color-stone);
-    font-size: 20px;
 }
 
 .subscribe__form > .form__btn {
