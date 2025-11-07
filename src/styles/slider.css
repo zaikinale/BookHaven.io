@@ -1,6 +1,5 @@
 .slider {
     max-height: 800px;
-    gap: 20px;
 }
 
 .slider__slide {
@@ -9,7 +8,6 @@
     background-size: cover;
     border-radius: 20px;
     padding: 20px;
-    gap: 10px;
 }
 
 .slider__slide--main {
@@ -25,7 +23,6 @@
 .slider__description {
     border-radius: 20px;
     padding: 20px;
-    gap: 10px;
     margin: 20px;
 }
 
@@ -37,12 +34,4 @@
 .slider__description--review {
     align-items: start;
     justify-content: start;
-}
-
-.slider__controls {
-    gap: 20px !important;
-}
-
-.slider__thumbnails {
-    gap: 20px !important;
 }

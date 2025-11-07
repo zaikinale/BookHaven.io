@@ -19,11 +19,9 @@
 
 .header__nav {
     flex-wrap: wrap;
-    gap: 20px !important;
 }
 
 .header__buttons {
-    gap: 10px;
     flex-wrap: wrap;
 }
 

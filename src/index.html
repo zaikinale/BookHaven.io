@@ -11,7 +11,7 @@
 
   <header class="header container container-row container-center container-element-space">
     <h2 class="header__title">BookHaven</h2>
-    <nav class="header__nav container container-row container-center container-element-center">
+    <nav class="header__nav container container-row container-center container-element-center gap-big">
         <a class="header__link" href="./register.html">Регистрация</a>
         <a class="header__link" href="./index.html#auth">Авторизация</a>
         <a class="header__link" href="./index.htmlprofile.html">Личный кабинет</a>
@@ -21,25 +21,25 @@
         <a class="header__link" href="./index.html#reviews">Отзывы</a>
         <a class="header__link" href="./index.html#contacts">Контакты</a>
     </nav>
-    <div class="header__buttons container container-center container-row">
+    <div class="header__buttons container container-center container-row gap-small">
       <button id="btn_toggle_theme" class="header__btn btn btn--primary">Переключить тему</button>
       <button id="btn_toggle_menu" class="header__btn btn btn--primary ">Меню</button>
     </div>
   </header>
 
-  <section class="slider container container-column container-center container-element-center">
-    <div class="slider__slide slider__slide--main container container-element-center">
-      <div class="slider__description slider__description--main description container container-column">
+  <section class="slider container container-column container-center container-element-center gap-small">
+    <div class="slider__slide slider__slide--main container container-element-center gap-small">
+      <div class="slider__description slider__description--main description container container-column gap-small">
         <h1 class="description__title">Читайте любимые книги онлайн</h1>
         <p class="description__text">Загружайте свои книги или читайте книги, добавленные нами.</p>
         <a class="description__link btn btn--primary" href="./read.html">Начать чтение</a>
       </div>
     </div>
 
-    <div class="slider__controls container container-row container-center container-element-center">
+    <div class="slider__controls container container-row container-center container-element-center gap-big">
       <button id="btn_before_slider_main" class="slider__btn btn btn--primary">Предыдущий</button>
 
-      <div class="slider__thumbnails container container-row container-center container-element-space">
+      <div class="slider__thumbnails container container-row container-center container-element-space gap-big">
         <img src="./img/media/books/cooking_on_russia.jpg" alt="Превью книги готовим по русски" class="slider__thumbnail">
         <img src="./img/media/books/auto_yoirist.jpg" alt="Превью книги я всегда прав на дороге" class="slider__thumbnail">
         <img src="./img/media/books/all_about_ChatGPT.jpg" alt="Превью книги все об ИИ чат-боте ChatGPT" class="slider__thumbnail">
@@ -49,7 +49,7 @@
     </div>
   </section>
 
-  <section id="auth" class="auth container container-column container-center container-element-center
+  <section id="auth" class="auth container container-column container-center container-element-center gap-small">
     <h2 class="auth__title ">Войдите в свой аккаунт</h2>
     <form action="#" class="auth__form form">
       <input class="form__input" type="email" name="email" placeholder="Электронная почта">
@@ -76,15 +76,15 @@
     </div>
   </section>
 
-  <section class="features container container-column container-center container-element-center ">
+  <section class="features container container-column container-center container-element-center gap-big">
     <h2 class="features__title">Видео о мероприятиях</h2>
     <video src="./video/howto.mp4" controls class="features__video" aria-label="Видео с мероприятий у нас"></video>
   </section>
 
   <section id="new-books" class="books">
     <h2 class="books__title ">Новые книги</h2>
-    <div class="books__rack container container-row container-center container-element-space">
-      <div class="rack__book container container-column container-center container-element-center ">
+    <div class="books__rack container container-row container-center container-element-space gap-big">
+      <div class="rack__book container container-column container-center container-element-center gap-small">
         <img class="rack__img" src="./img/media/books/nevesta.jpg" alt="Книга Невеста сумречной тени">
         <div class="rack__description description container container-column container-center container-element-center  ">
           <h3 class="description__title">Невеста сумеречной Тени</h3>
@@ -92,7 +92,7 @@
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book container container-column container-center container-element-center ">
+      <div class="rack__book container container-column container-center container-element-center gap-small">
         <img class="rack__img" src="./img/media/books/chess.jpg" alt="Книга игра на чужом поле">
         <div class="rack__description description container container-column container-center container-element-center  ">
           <h3 class="description__title">Игра на чужом поле</h3>
@@ -100,7 +100,7 @@
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book container container-column container-center container-element-center ">
+      <div class="rack__book container container-column container-center container-element-center gap-small">
         <img class="rack__img" src="./img/media/books/all_about_ChatGPT.jpg" alt="Книга все об ИИ чат-боте ChatGPT">
         <div class="rack__description description container container-column container-center container-element-center  ">
           <h3 class="description__title">Всё об ИИ чат-боте ChatGPT</h3>
@@ -108,7 +108,7 @@
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book container container-column container-center container-element-center ">
+      <div class="rack__book container container-column container-center container-element-center gap-small">
         <img class="rack__img" src="./img/media/books/pediatria.jpg" alt="Книга Занудная педиатрия">
         <div class="rack__description description container container-column container-center container-element-center  ">
           <h3 class="description__title">Занудная педиатрия для мам, пап, бабушек и дедушек: Разное про незаразное</h3>
@@ -116,7 +116,7 @@
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book container container-column container-center container-element-center ">
+      <div class="rack__book container container-column container-center container-element-center gap-small">
         <img class="rack__img" src="./img/media/books/cooking_on_russia.jpg" alt="Книга готовим по русски">
         <div class="rack__description description container container-column container-center container-element-center  ">
           <h3 class="description__title">Готовим по-русски. Рецепты, традиции, наследие</h3>
@@ -124,7 +124,7 @@
           <a href="#" class="description__link btn btn--secondary">Читать</a>
         </div>
       </div>
-      <div class="rack__book container container-column container-center container-element-center  next-books">
+      <div class="rack__book container container-column container-center container-element-center next-books gap-big">
         <div class="rack__description description container container-column container-center container-element-center  ">
           <div class="description__title">Читай другие!</div>
         </div>
@@ -133,9 +133,9 @@
     </div>
   </section>
 
-  <section id="search" class="search container container-column container-center container-element-center ">
+  <section id="search" class="search container container-column container-center container-element-center gap-big">
     <h2 class="search__title">Ищите что хотите!</h2>
-    <form action="#" class="search__form form container container-row container-center container-element-space ">
+    <form action="#" class="search__form form container container-row container-center container-element-space gap-small">
       <input type="search" class="form__input" list="book-suggestions" placeholder="Поиск по названию или автору...">
       <datalist id="book-suggestions" class="form__suggestions search__suggestions">
         <option value="Невеста сумеречной Тени">
@@ -155,11 +155,10 @@
 
   <section id="reviews" class="reviews">
     <h2 class="reviews__title">Отзывы читателей</h2>
-
-    <div class="reviews__slider slider container container-column container-center container-element-center">
-      <div class="slider__slide slider__slide--review container container-row container-center container-element-center">
+    <div class="reviews__slider slider container container-column container-center container-element-center gap-small">
+      <div class="slider__slide slider__slide--review container container-row container-center container-element-center gap-small">
         <img src="./img/media/reviews/author_1.jpg" alt="Авaтaр автора отзыва Мария Чирнявская" class="slider__img">
-        <div class="slider__description slider__description--review description container container-column container-center">
+        <div class="slider__description slider__description--review description container container-column container-center gap-small">
           <h3 class="description__title">Мария Чирнявская</h3>
           <div class="description__rating container container-row container-center container-element-center">
             <img src="./img/media/star.png" alt="Звезда" class="description__img">
@@ -173,10 +172,10 @@
         </div>
 
       </div>
-      <div class="slider__controls container container-row container-center container-element-center">
+      <div class="slider__controls container container-row container-center container-element-center gap-big">
         <button id="btn_before_slider_reviews" class="slider__btn btn btn--primary">Предыдущий</button>
 
-        <div class="slider__thumbnails container container-row container-center container-element-space">
+        <div class="slider__thumbnails container container-row container-center container-element-space gap-big">
           <img src="./img/media/reviews/author_2.jpg" alt="Превью-аватар отзыва от автора Иванова Дмитрия Олеговича" class="slider__thumbnail">
           <img src="./img/media/reviews/author_3.jpg" alt="Превью-аватар отзыва от автора Кононова Василиса" class="slider__thumbnail">
           <img src="./img/media/reviews/author_4.jpg" alt="Превью-аватар отзыва от автора Рябцева Маргарита Тихоновна" class="slider__thumbnail">
@@ -187,15 +186,15 @@
     </div>
   </section>
 
-  <section class="subscribe container container-column container-center container-element-center">
+  <section class="subscribe container container-column container-center container-element-center gap-small">
     <h2 class="subscribe__title">Подпишись на рассылку!</h2>
-    <form class="subscribe__form form container container-center container-element-center">
+    <form class="subscribe__form form container container-center container-element-center gap-big">
       <h3 class="form__title">Подписка на новости</h3>
-      <div class="form__field container container-row container-center container-element-center">
+      <div class="form__field container container-row container-center container-element-center gap-small">
         <label class="form__label" for="field-email">E-mail:</label>
         <input class="form__input" id="field-email" name="email" type="email" placeholder="Ваш email" required>
       </div>
-      <div class="form__field container container-row container-center container-element-center">
+      <div class="form__field container container-row container-center container-element-center gap-small ">
         <input id="consent-checkbox" name="consent" class="form__checkbox" type="checkbox">
         <label for="consent-checkbox" class="form__description">Я согласен на обработку персональных данных</label>
       </div>
@@ -207,12 +206,12 @@
   </section>
 
 
-  <footer class="footer container container-row container-center container-element-space">
-    <div id="contacts" class="footer__contacts container container-column  ">
+  <footer class="footer container container-row container-center container-element-space gap-small">
+    <div id="contacts" class="footer__contacts container container-column gap-small">
       <p class="footer__contact">Телефон: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
       <p class="footer__contact">Email: <a href="mailto:books@prof.ru">books@prof.ru</a></p>
     </div>
-    <nav class="footer__nav container container-row container-center container-element-center">
+    <nav class="footer__nav container container-row container-center container-element-center gap-big">
       <a class="footer__link" href="./register.html">Регистрация</a>
       <a class="footer__link" href="./index.html#auth">Авторизация</a>
       <a class="footer__link" href="./index.htmlprofile.html">Личный кабинет</a>

@@ -261,7 +261,6 @@ section > h2 {
 
 .container {
   display: flex;
-  gap: 10px;
 }
 
 .container-center {
