@@ -31,7 +31,11 @@
 
 .rack__description > .description__text {
     max-height: 150px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .rack__description > .btn {

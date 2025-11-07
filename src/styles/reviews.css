@@ -19,7 +19,11 @@
     object-fit: cover;
 }
 
-.slide__description > .description__text {
+.slider__description > .description__text {
     height: 90px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
