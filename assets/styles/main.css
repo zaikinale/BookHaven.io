@@ -141,27 +141,27 @@ section > h2 {
   color: var(--color-stone);
 }
 
-.description {
+.desc {
   width: 400px;
   /* можно будет в будущем удалить */
   background-color: var(--color-parchment);
   padding: 20px;
 }
 
-.description__title {
+.desc__title {
   color: var(--color-forest);
 }
 
-.description__link {
+.desc__link {
   padding: 10px 20px;
 }
 
-.description > .list {
+.desc > .list {
   list-style-type: disc;
   padding: 20px;
 }
 
-.description > .list > .list__item {
+.desc > .list > .list__item {
   padding: 10px;
 }
 

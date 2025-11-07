@@ -17,12 +17,12 @@
     height: initial;
 }
 
-.slider__description {
+.slider__desc {
     padding: 20px;
     margin: 20px;
 }
 
-.slider__description--review {
+.slider__desc--review {
     align-items: start;
     justify-content: start;
 }

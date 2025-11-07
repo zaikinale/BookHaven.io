@@ -5,17 +5,17 @@
     object-fit: contain;
 }
 
-.description__rating {
+.desc__rating {
     gap: 5px !important;
 }
 
-.description__img {
+.desc__img {
     width: 30px;
     height: 30px;
     object-fit: cover;
 }
 
-.slider__description > .description__text {
+.slider__desc > .desc__text {
     height: 90px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
