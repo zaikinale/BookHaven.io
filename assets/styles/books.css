@@ -2,14 +2,12 @@
     width: 330px;
     padding: 20px;
     background-color: var(--color-meadow);
-    border-radius: 20px;
 }
 
 .rack__img {
     width: 90%;
     height: 300px;
     object-fit: cover;
-    border-radius: 20px;
 }
 
 .rack__description {
@@ -38,7 +36,7 @@
 }
 
 .next-books {
-    height: 600px;
+    height: 590px;
 }
 
 .rack__btn {

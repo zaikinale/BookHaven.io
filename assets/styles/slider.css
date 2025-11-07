@@ -6,7 +6,6 @@
     width: 100%;
     height: 600px;
     background-size: cover;
-    border-radius: 20px;
     padding: 20px;
 }
 
@@ -19,7 +18,6 @@
 }
 
 .slider__description {
-    border-radius: 20px;
     padding: 20px;
     margin: 20px;
 }

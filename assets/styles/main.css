@@ -19,35 +19,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lorenzo Sans', sans-serif;
+  font-family: 'Lorenzo Sans', 'Arial', sans-serif;
   color: var(--color-charcoal);
   line-height: 1.6;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button,
-input,
-textarea,
-select {
-  font: inherit;
-  outline: none;
   border: none;
   background: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  list-style: none;
+  text-decoration: none;
 }
 
 :root {
@@ -58,17 +36,14 @@ img {
   --color-charcoal: #3d3f3f;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
 body {
   background-color: var(--color-stone);
 }
 
 h1, h2, h3 {
-  font-family: 'Intro Head R', serif; /* запасной шрифт */
+  font-family: 'Intro Head R', 'Gloria', serif; 
   margin-bottom: 24px;
+  text-align: center;
 }
 
 h1 { 
@@ -88,13 +63,6 @@ h3 {
   margin-bottom: 16px; 
 }
 
-h4 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 12px;
-}
-
 p, input, button {
   font-size: 18px;
 
@@ -107,19 +75,20 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus {
-  color: var(--color-forest);
-  text-decoration: none;
-  transform: scale(1.1);
-}
 
 button, input, a {
   transition: color 0.4s ease-in-out, transform 0.3s ease;
 }
 
 button:hover, button:focus,
-input:hover, input:focus {
+input:hover, input:focus, a:hover, a:focus {
   transform: scale(1.1);
+  color: var(--color-meadow);
+  background-color: var(--color-forest);
+}
+
+a:hover, a:focus {
+  color: var(--color-forest);
 }
 
 input::placeholder {
@@ -134,7 +103,6 @@ section{
 }
 
 section > h2 {
-  text-align: center;
   color: var(--color-forest);
 }
 
@@ -142,12 +110,6 @@ section > h2 {
   padding: 10px 15px;
   border-radius: 10px;
   text-align: center;
-}
-
-.btn:hover, .btn:focus {
-  color: var(--color-meadow);
-  background-color: var(--color-forest);
-  transform: scale(1.1);
 }
 
 .btn--primary {
@@ -162,10 +124,7 @@ section > h2 {
 
 .slider__thumbnail {
   max-width: 100px;
-  width: inherit;
-  height: inherit;
   height: 60px;
-  object-fit: contain;
   border-radius: 20px;
 }
 
@@ -173,10 +132,6 @@ section > h2 {
   width: 400px;
   background-color: var(--color-meadow);
   padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
 }
 
 .form__input {
@@ -186,21 +141,14 @@ section > h2 {
   color: var(--color-stone);
 }
 
-.form__link {
-  color: var(--color-stone);
-}
-
 .description {
-  gap: 10px;
   width: 400px;
+  /* можно будет в будущем удалить */
   background-color: var(--color-parchment);
   padding: 20px;
 }
 
-.description__title { /*Эти стили к h1 надо или вынести вообще от сюды*/
-  text-align: center;
-  font-weight: bold;
-  font-size: 30px;
+.description__title {
   color: var(--color-forest);
 }
 
@@ -214,7 +162,6 @@ section > h2 {
 }
 
 .description > .list > .list__item {
-  transform: none;
   padding: 10px;
 }
 
@@ -223,14 +170,7 @@ section > h2 {
   width: 40%;
   padding: 12px;
   border-radius: 10px;
-  background-color: var(--color-forest);
-  color: white;
-  border: none;
   cursor: pointer;
-}
-
-.form__btn:hover {
-  background-color: var(--color-forest);
 }
 
 .fc {
@@ -254,4 +194,22 @@ section > h2 {
 
 .gs {
   gap: 10px;
+}
+
+/* Добавить переиспользование */
+
+.rs {
+  border-radius: 10px;
+}
+
+.rb {
+  border-radius: 20px;
+}
+
+.ps {
+  padding: 10px;
+}
+
+.pb {
+  padding: 20px;
 }
