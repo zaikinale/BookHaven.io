@@ -15,20 +15,10 @@
     background-image: url('../img/media/books/chess.jpg');
 }
 
-.slider__slide--review {
-    height: initial;
-    flex-wrap: wrap;
-}
-
 .slider__description {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
-}
-
-.slider__description--main {
-    align-items: center;
-    justify-content: center;
 }
 
 .slider__description--review {

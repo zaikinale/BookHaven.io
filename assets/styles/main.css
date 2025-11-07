@@ -19,6 +19,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lorenzo Sans', sans-serif;
+  color: var(--color-charcoal);
+  line-height: 1.6;
 }
 
 ul,
@@ -61,20 +64,10 @@ img {
 
 body {
   background-color: var(--color-stone);
-  font-family: 'Lorenzo Sans', sans-serif;
-  color: var(--color-charcoal);
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4, p, span, input, button, a {
-  color: var(--color-charcoal);
 }
 
 h1, h2, h3 {
   font-family: 'Intro Head R', serif; /* запасной шрифт */
-  font-weight: 400;
   margin-bottom: 24px;
 }
 
@@ -96,7 +89,6 @@ h3 {
 }
 
 h4 {
-  font-family: 'Lorenzo Sans', sans-serif;  /* запасной шрифт */
   font-size: 20px;
   font-weight: 600;
   line-height: 1.4;
@@ -104,13 +96,11 @@ h4 {
 }
 
 p, input, button {
-  font-family: 'Lorenzo Sans', sans-serif;  /* запасной шрифт */
   font-size: 18px;
-  font-weight: 400;
+
 }
 
 a {
-  font-family: 'Lorenzo Sans', sans-serif;  /* запасной шрифт */
   font-size: 18px;
   font-weight: 500;
   color: var(--color-meadow);
@@ -137,11 +127,6 @@ input::placeholder {
   opacity: 0.6;
 }
 
-span {
-  font-size: inherit;
-  line-height: inherit;
-}
-
 section{
   max-width: 1200px;
   margin: 0 auto;
@@ -157,7 +142,6 @@ section > h2 {
   padding: 10px 15px;
   border-radius: 10px;
   text-align: center;
-  font-family: 'Lorenzo Sans', sans-serif; /* запасной шрифт */
 }
 
 .btn:hover, .btn:focus {
@@ -175,7 +159,6 @@ section > h2 {
   background-color: var(--color-stone); 
   color: var(--color-forest); 
 }
-
 
 .slider__thumbnail {
   max-width: 100px;
@@ -257,19 +240,6 @@ section > h2 {
   flex-wrap: wrap;
 }
 
-
-/* .container {
-  display: flex;
-}
-
-.container-center {
-  align-items: center;
-}
-
-.container-element-center {
-  justify-content: center;
-} */
-
 .fb {
   justify-content: space-between;
 }
@@ -278,20 +248,8 @@ section > h2 {
   flex-direction: column;
 }
 
-.container-column {
-  flex-direction: column;
-}
-/* 
-.gap-big {
-  gap: 20px;
-}
-
-.gap-small {
-  gap: 10px;
-} */
-
 .gb {
-  gap: 10px;
+  gap: 20px;
 }
 
 .gs {

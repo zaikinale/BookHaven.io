@@ -12,9 +12,6 @@
     color: var(--color-parchment);
     text-decoration: none;
 }
-.footer__nav {
-    flex-wrap: wrap;
-}
 
 @media (max-width: 1400px) {
     .footer {

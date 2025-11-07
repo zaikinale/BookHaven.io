@@ -7,22 +7,12 @@
     max-width: none;
     padding: 20px 15%;
     background-color: var(--color-parchment);
-    flex-wrap: wrap;
-    justify-content: space-between;
     gap: 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .header__title {
     margin: 0;
-}
-
-.header__nav {
-    flex-wrap: wrap;
-}
-
-.header__buttons {
-    flex-wrap: wrap;
 }
 
 #btn_toggle_menu {

@@ -14,8 +14,6 @@
 .form__label {
     flex-shrink: 0;
     white-space: nowrap;
-    font-family: 'Lorenzo Sans', sans-serif;
-    font-size: 18px;
     font-weight: 500;
     color: var(--color-stone);
 }
@@ -26,8 +24,6 @@
     border-radius: 10px;
     border: 1px solid transparent;
     background-color: var(--color-forest);
-    font-family: 'Lorenzo Sans', sans-serif;
-    font-size: 18px;
 }
 
 .form__checkbox {
