@@ -1,8 +1,5 @@
-
-
 .footer {
     padding: 20px 15%;
-    gap: 20px !important; 
     background-color: var(--color-charcoal);
     color: var(--color-stone);
 }
@@ -17,14 +14,11 @@
 }
 .footer__nav {
     flex-wrap: wrap;
-    gap: 20px !important;
 }
 
 @media (max-width: 1400px) {
     .footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+        flex-direction: column;
     }
 }
 

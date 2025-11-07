@@ -41,20 +41,11 @@ select {
   background: none;
 }
 
-button {
-  -webkit-appearance: none;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
-*:focus {
-  outline: none;
-}
-
 
 :root {
   --color-forest: #28724f;
