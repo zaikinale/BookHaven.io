@@ -14,6 +14,9 @@
     align-items: end;
     background-image: url('../img/media/books/chess.jpg');
 }
+.slider__slide--review {
+    height: initial;
+}
 
 .slider__description {
     border-radius: 20px;
