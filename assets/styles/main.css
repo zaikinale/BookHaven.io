@@ -198,13 +198,9 @@ section > h2 {
 
 /* Добавить переиспользование */
 
-.rs {
+/* .rs {
   border-radius: 10px;
-}
-
-.rb {
-  border-radius: 20px;
-}
+} */
 
 .ps {
   padding: 10px;
@@ -213,3 +209,9 @@ section > h2 {
 .pb {
   padding: 20px;
 }
+
+/* Добавил*/
+.rb {
+  border-radius: 20px;
+}
+
