@@ -250,7 +250,15 @@ section > h2 {
   background-color: var(--color-forest);
 }
 
-.container {
+.fc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/* .container {
   display: flex;
 }
 
@@ -260,26 +268,32 @@ section > h2 {
 
 .container-element-center {
   justify-content: center;
-}
+} */
 
-.container-element-space {
+.fb {
   justify-content: space-between;
 }
 
-.container-row {
-  flex-direction: row;
+.cc {
+  flex-direction: column;
 }
 
 .container-column {
   flex-direction: column;
 }
-
-/* Добавить отступы через класс */
-
+/* 
 .gap-big {
   gap: 20px;
 }
 
 .gap-small {
+  gap: 10px;
+} */
+
+.gb {
+  gap: 10px;
+}
+
+.gs {
   gap: 10px;
 }
