@@ -143,9 +143,7 @@ section > h2 {
 
 .desc {
   width: 400px;
-  /* можно будет в будущем удалить */
   background-color: var(--color-parchment);
-  padding: 20px;
 }
 
 .desc__title {
@@ -157,11 +155,11 @@ section > h2 {
 }
 
 .desc > .list {
-  list-style-type: disc;
   padding: 20px;
 }
 
 .desc > .list > .list__item {
+  list-style-type: disc;
   padding: 10px;
 }
 

@@ -16,40 +16,8 @@
 
 @font-face {
   font-family: 'Lorenzo Sans';
-  src: url('../fonts/LorenzoSans/LorenzoSansItalic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lorenzo Sans';
   src: url('../fonts/LorenzoSans/LorenzoSansMedium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lorenzo Sans';
-  src: url('../fonts/LorenzoSans/LorenzoSansMediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lorenzo Sans';
-  src: url('../fonts/LorenzoSans/LorenzoSansBold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lorenzo Sans';
-  src: url('../fonts/LorenzoSans/LorenzoSansBoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
   font-display: swap;
 }
