@@ -1,5 +1,5 @@
 .slider {
-    max-height: 800px;
+    /* max-height: 800px; */
 }
 
 .slider__slide {
@@ -25,4 +25,8 @@
 .slider__desc--review {
     align-items: start;
     justify-content: start;
+}
+
+.slider__thumbnail {
+    width: 60px;
 }
