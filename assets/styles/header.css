@@ -35,7 +35,7 @@
     .header {
         padding-left: 5%;
         padding-right: 5%;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .header__nav {
