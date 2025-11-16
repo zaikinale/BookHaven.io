@@ -8,9 +8,8 @@
     color: var(--color-stone);
 }
 
-.footer__contact a {
-    color: var(--color-parchment);
-    text-decoration: none;
+.footer__link {
+    color: var(--color-parchment); 
 }
 
 @media (max-width: 1400px) {

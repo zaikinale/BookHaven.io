@@ -10,6 +10,8 @@
     object-fit: cover;
 }
 
+/* Исправить ошибку! */
+
 .rack__desc {
     width: 280px !important;
     background: none !important;

@@ -1,6 +1,6 @@
 .search__form {
     padding: 10px;
-    width: 700px !important;
+    min-width: 700px;
     flex-shrink: 0;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .search__form > .form__input:hover, .form__input:focus {
-    transform: scale(1.02) !important;
+    transform: scale(1.02);
 } 
 
 .search__form > .form__btn {
@@ -17,15 +17,8 @@
 }
 
 @media (max-width: 768px) {
-    .search__form {
-        width: 80%;
-    }
-
-    .slide--review {
-        width: 80%;
-    }
-
-    .controls {
+    .search__form, .slide--review, .controls {
+        min-width: 0;
         width: 80%;
     }
 }
