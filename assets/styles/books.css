@@ -1,10 +1,10 @@
-.rack__book {
+.closet__book {
     width: 330px;
     padding: 20px;
     background-color: var(--color-meadow);
 }
 
-.rack__img {
+.closet__img {
     width: 90%;
     height: 300px;
     object-fit: cover;
@@ -12,19 +12,19 @@
 
 /* Исправить ошибку! */
 
-.rack__desc {
+.closet__desc {
     width: 280px !important;
     background: none !important;
     padding: 0 !important;
 }
 
-.rack__desc > .desc__title {
+.closet__desc > .desc__title {
     color: var(--color-stone);
     height: 40px;
     overflow: hidden;
 }
 
-.rack__desc > .desc__text {
+.closet__desc > .desc__text {
     max-height: 150px;
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -33,7 +33,7 @@
     text-overflow: ellipsis;
 }
 
-.rack__desc > .btn {
+.closet__desc > .btn {
     width: 95%;
 }
 
@@ -41,7 +41,7 @@
     height: 590px;
 }
 
-.rack__btn {
+.closet__btn {
     width: 95%;
     padding: 10px 20px;
 }
